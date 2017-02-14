@@ -1,0 +1,44 @@
+@import "common.css";
+div {
+  outline: 1px solid gray;
+}
+html,
+body {
+  height: 100%;
+}
+.fr {
+  float: right;
+  position: relative;
+}
+.fl {
+  float: left;
+  position: relative;
+}
+.header {
+  width: 180px;
+}
+.main_nav {
+  top: 16px;
+  right: 180px;
+  width: 180px;
+  height: 100%;
+  background-color: tomato;
+}
+.main_nav .nav {
+  background-color: #ccc;
+}
+.section {
+  margin-left: 180px;
+  width: 100%;
+  height: 100%;
+  background-image: url('../image/winter_yeonny_main.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.aside {
+  display: none;
+}
+.footer {
+  top: 220px;
+  width: 180px;
+}

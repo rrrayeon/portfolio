@@ -1,0 +1,35 @@
+div{outline: 1px solid gray}
+html,body{height:100%;}
+.fr{float:right; position: relative;}
+.fl{float: left; position: relative;}
+//  display: inline-block;
+//  *display: inline;
+//  *zoom:1;
+//--options
+
+// - nav 기본 width:180px;
+.header{//렉서스 로고
+  width:180px;
+}
+.main_nav{
+  top:16px;//header height만큼
+  right:180px;
+  width:180px;
+  height:100%;
+  background-color: tomato;
+}
+.main_nav .nav{
+  background-color:#ccc;
+}
+//section margin-left:180px;공간확보 나머지 전부float:left;
+.section{
+  margin-left:180px;
+  width: 100%;height: 100%;
+  background-image: url('../image/winter_yeonny_main.jpg');
+  background-repeat: no-repeat;background-size: cover;//중심잡기 이미지
+}
+.aside{display: none;}
+.footer{
+  top:220px;
+  width:180px
+}

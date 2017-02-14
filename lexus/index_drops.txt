@@ -1,0 +1,330 @@
+<ul id="model-lineup-list" class="sub-menu clearfix">
+
+                                             <!-- 1st column -->
+                                             <!--
+                                             <li class="pos-def-0">
+                                                 <p class="model-code">
+                                                     <span class="line-tag">LS</span>
+                                                     <span class="pic"><img src="/asset/images/temp/model/navi_car_0.png" alt="" /></span>
+                                                 </p>
+                                                 <ul class="model-list">
+                                                     <li>
+                                                         <a href="/html/models/LS600hL.asp">
+                                                             <span class="atxt">
+                                                                 <em>LS 600hL</em>
+                                                             </span>
+                                                             <span class="line"></span>
+                                                         </a>
+                                                         <span class="mask"></span>
+                                                     </li>
+                                                     <li>
+                                                         <a href="/html/models/LS460.asp">
+                                                             <span class="atxt">
+                                                                 <em>LS 460</em>
+                                                             </span>
+                                                             <span class="line"></span>
+                                                         </a>
+                                                         <span class="mask"></span>
+                                                     </li>
+                                                     <li>
+                                                         <a href="/html/models/LS460_AWD.asp">
+                                                             <span class="atxt">
+                                                                 <em>LS 460 AWD</em>
+                                                             </span>
+                                                             <span class="line"></span>
+                                                         </a>
+                                                         <span class="mask"></span>
+                                                     </li>
+                                                     <li>
+                                                         <a href="/html/models/LS460L.asp">
+                                                             <span class="atxt">
+                                                                 <em>LS 460L</em>
+                                                             </span>
+                                                             <span class="line"></span>
+                                                         </a>
+                                                         <span class="mask"></span>
+                                                     </li>
+                                                 </ul>
+                                             </li>
+                                             <li class="pos-def-1 col-2">
+                                                 <p class="model-code">
+                                                     <span class="line-tag">GS</span>
+                                                     <span class="pic"><img src="/asset/images/temp/model/navi_car_1.png" alt="" /></span>
+                                                 </p>
+                                                 <ul class="model-list">
+                                                     <li>
+                                                         <a href="/html/models/GS450h.asp">
+                                                             <span class="atxt">
+                                                                 <em>GS 450h</em>
+                                                             </span>
+                                                             <span class="line"></span>
+                                                         </a>
+                                                         <span class="mask"></span>
+                                                     </li>
+                                                     <li>
+                                                         <a href="/html/models/GS350.asp">
+                                                             <span class="atxt">
+                                                                 <em>GS 350</em>
+                                                             </span>
+                                                             <span class="line"></span>
+                                                         </a>
+                                                         <span class="mask"></span>
+                                                     </li>
+                                                     <li>
+                                                         <a href="/html/models/GS250.asp">
+                                                             <span class="atxt">
+                                                                 <em>GS 250</em>
+                                                             </span>
+                                                             <span class="line"></span>
+                                                         </a>
+                                                         <span class="mask"></span>
+                                                     </li>
+                                                     <li>
+                                                         <a href="/html/models/GS350_FSPORT.asp">
+                                                             <span class="atxt short-gap">
+                                                                 <em>GS 350 F SPORT</em>
+                                                             </span>
+                                                             <span class="line"></span>
+                                                         </a>
+                                                         <span class="mask"></span>
+                                                     </li>
+                                                 </ul>
+                                             </li>
+                                             <li class="pos-def-2 col-3">
+                                                 <p class="model-code">
+                                                     <span class="line-tag">ES</span>
+                                                     <span class="pic"><img src="/asset/images/temp/model/navi_car_2.png" alt="" /></span>
+                                                 </p>
+                                                 <ul class="model-list">
+                                                     <li>
+                                                         <a href="/html/models/ES300h.asp">
+                                                             <span class="atxt">
+                                                                 <em>ES 300h</em>
+                                                             </span>
+                                                             <span class="line"></span>
+                                                         </a>
+                                                         <span class="mask"></span>
+                                                     </li>
+                                                     <li>
+                                                         <a href="/html/models/ES350.asp">
+                                                             <span class="atxt">
+                                                                 <em>ES 350</em>
+                                                             </span>
+                                                             <span class="line"></span>
+                                                         </a>
+                                                         <span class="mask"></span>
+                                                     </li>
+                                                 </ul>
+                                             </li>
+                                             -->
+
+                                             <!-- 2nd column -->
+                                             <!--
+                                             <li class="pos-def-3 col-2 col-4">
+                                                 <p class="model-code">
+                                                     <span class="line-tag">IS</span>
+                                                     <span class="pic"><img src="/asset/images/temp/model/navi_car_3.png" alt="" /></span>
+                                                 </p>
+                                                 <ul class="model-list">
+                                                     <li>
+                                                       <a href="/html/models/IS250.asp">
+                                                           <span class="atxt">
+                                                               <em>IS 250</em>
+                                                           </span>
+                                                           <span class="line"></span>
+                                                       </a>
+                                                       <span class="mask"></span>
+                                                     </li>
+                                                     <li>
+                                                       <a href="/html/models/IS250_FSPORT.asp">
+                                                           <span class="atxt short-gap">
+                                                               <em>IS 250 F SPORT</em>
+                                                           </span>
+                                                           <span class="line"></span>
+                                                       </a>
+                                                       <span class="mask"></span>
+                                                     </li>
+                                                 </ul>
+
+                                             </li>
+                                             <li class="pos-def-4 col-5">
+                                                 <p class="model-code">
+                                                     <span class="line-tag">RX</span>
+                                                     <span class="pic"><img src="/asset/images/temp/model/navi_car_4.png" alt="" /></span>
+                                                 </p>
+                                                 <ul class="model-list">
+                                                     <li>
+                                                         <a href="/html/models/RX450h.asp">
+                                                             <span class="atxt">
+                                                                 <em>RX 450h</em>
+                                                             </span>
+                                                             <span class="line"></span>
+                                                         </a>
+                                                         <span class="mask"></span>
+                                                     </li>
+                                                     <li>
+                                                         <a href="/html/models/RX350.asp">
+                                                             <span class="atxt">
+                                                                 <em>RX 350</em>
+                                                             </span>
+                                                             <span class="line"></span>
+                                                         </a>
+                                                         <span class="mask"></span>
+                                                     </li>
+                                                     <li>
+                                                         <a href="/html/models/RX450h_FSPORT.asp">
+                                                             <span class="atxt short-gap">
+                                                                 <em>RX 450h F SPORT</em>
+                                                             </span>
+                                                             <span class="line"></span>
+                                                         </a>
+                                                         <span class="mask"></span>
+                                                     </li>
+                                                     <li>
+                                                         <a href="/html/models/RX350_FSPORT.asp">
+                                                             <span class="atxt short-gap">
+                                                                 <em>RX 350 F SPORT</em>
+                                                             </span>
+                                                             <span class="line"></span>
+                                                         </a>
+                                                         <span class="mask"></span>
+                                                     </li>
+                                                 </ul>
+                                             </li>
+                                             <li class="pos-def-5 col-2 col-3 col-6">
+                                                 <p class="model-code">
+                                                     <span class="line-tag">NX</span>
+                                                     <span class="pic"><img src="/asset/images/temp/model/navi_car_5.png" alt="" /></span>
+                                                 </p>
+                                                 <ul class="model-list">
+                                                     <li>
+                                                         <a href="/html/models/NX300h.asp">
+                                                             <span class="atxt">
+                                                                 <em>NX 300h</em>
+                                                             </span>
+                                                             <span class="line"></span>
+                                                         </a>
+                                                         <span class="mask"></span>
+                                                     </li>
+                                                 </ul>
+                                             </li>
+                                             -->
+
+                                             <!-- 3rd column -->
+                                             <!--
+                                             <li class="pos-def-6">
+                                                 <p class="model-code">
+                                                     <span class="line-tag">CT</span>
+                                                     <span class="pic"><img src="/asset/images/temp/model/navi_car_6.png" alt="" /></span>
+                                                 </p>
+                                                 <ul class="model-list">
+                                                      <li>
+                                                          <a href="/html/models/CT200h.asp">
+                                                              <span class="atxt">
+                                                                  <em>CT 200h</em>
+                                                              </span>
+                                                              <span class="line"></span>
+                                                          </a>
+                                                          <span class="mask"></span>
+                                                      </li>
+                                                      <li>
+                                                          <a href="/html/models/CT200h_FSPORT.asp">
+                                                              <span class="atxt short-gap">
+                                                                  <em>CT 200h F SPORT</em>
+                                                              </span>
+                                                              <span class="line"></span>
+                                                          </a>
+                                                          <span class="mask"></span>
+                                                      </li>
+                                                 </ul>
+                                             </li>
+                                             <li class="pos-def-7 concept-car ">
+                                                 <ul class="model-list">
+                                                     <li>
+                                                         <a href="/html/models/conceptcar_gallery.asp">
+                                                             <span class="atxt">
+                                                                 <em>CONCEPT CAR</em>
+                                                             </span>
+                                                             <span class="line"></span>
+                                                         </a>
+                                                         <span class="mask"></span>
+                                                     </li>
+                                                 </ul>
+                                             </li>
+                                             <li class="pos-def-8 col-2 col-4 last">
+                                                 <p class="model-code small-txt">
+                                                     <span class="line-tag txt">FUTURE CAR</span>
+                                                     <span class="pic"><img src="/asset/images/temp/model/navi_car_7.png" alt="" /></span>
+                                                 </p>
+                                                 <ul class="model-list">
+                                                     <li>
+                                                         <a href="/html/models/model.asp">
+                                                             <span class="atxt">
+                                                                 <em>RC</em>
+                                                             </span>
+                                                             <span class="line"></span>
+                                                         </a>
+                                                         <span class="mask"></span>
+                                                     </li>
+                                                     <li>
+                                                         <a href="/html/models/model.asp">
+                                                             <span class="atxt">
+                                                                 <em>RC F SPORT</em>
+                                                             </span>
+                                                             <span class="line"></span>
+                                                         </a>
+                                                         <span class="mask"></span>
+                                                     </li>
+                                                 </ul>
+                                             </li>
+                                             -->
+   </ul>
+
+
+                ----------------------------------------------------------drop2         
+                                             <ul>
+                                                 <!-- todo 타입정의
+                                                     type-a: full
+                                                     type-b: vertical 1/2
+                                                     type-c: horizontal 1/2
+                                                     type-d: 1/4
+                                                 -->
+                                                 <!--
+                                                 <li class="type-a">
+                                                     <a href="#">
+                                                         <span class="bn-tit">LEXUS HYBRID ZERO</span>
+                                                         <img src="/asset/images/temp/@mbanner_1.jpg" alt=""/>
+                                                     </a>
+                                                 </li>
+                                                 <li class="type-b">
+                                                     <a href="#">
+                                                         <span class="bn-tit">F-PHILOSOPHY</span>
+                                                         <img src="/asset/images/temp/@mbanner_2.jpg" alt=""/>
+                                                     </a>
+                                                 </li>
+                                                 <li class="type-c">
+                                                     <a href="#">
+                                                         <span class="bn-tit">LEXUS STORY</span>
+                                                         <img src="/asset/images/temp/@mbanner_3.jpg" alt=""/>
+                                                     </a>
+                                                 </li>
+                                                 <li class="type-d">
+                                                     <a href="#">
+                                                         <span class="bn-tit">CONCEPT CAR GALLERY</span>
+                                                         <img src="/asset/images/temp/@mbanner_4.jpg" alt=""/>
+                                                     </a>
+                                                 </li>
+                                                 <li class="type-d">
+                                                     <a href="#">
+                                                         <span class="bn-tit">i-MAGAZINE</span>
+                                                         <img src="/asset/images/temp/@mbanner_5.jpg" alt=""/>
+                                                     </a>
+                                                 </li>
+                                                 <li class="type-c">
+                                                     <a href="#">
+                                                         <span class="bn-tit">EVENT</span>
+                                                         <img src="/asset/images/temp/@mbanner_6.jpg" alt=""/>
+                                                     </a>
+                                                 </li>
+                                                 -->
+                                             </ul>
