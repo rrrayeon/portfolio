@@ -42,56 +42,14 @@ body {
   top: 220px;
   width: 180px;
 }
-.content {
+body,
+html {
   height: 100%;
 }
-.content > section {
+.section_hybrid_zero {
   margin-left: 180px;
-  position: relative;
-  overflow: hidden;
+  background-color: #000;
 }
-.content .sec_1 {
-  background-color: black;
-  z-index: 1;
-  height: 950px;
-  overflow: hidden;
-}
-.content .sec_1 .bg {
-  position: absolute;
-  top: 0;
-  left: 50%;
-  width: 1420px;
-  height: 800px;
-  margin-left: -620px;
-}
-.content .sec_1 .img_all {
-  text-align: center;
-}
-.content .sec_1 .img_all h2 {
-  position: absolute;
-  top: 74px;
-  left: 40%;
-  margin-left: -32px;
-}
-.content .sec_1 .img_all .movable-logo {
-  position: absolute;
-  top: 169px;
-  left: 50.5%;
-  width: 240px;
-  height: 457px;
-  margin-left: -48px;
-}
-.content .sec_1 .img_all .movable-man {
-  position: absolute;
-  top: 168px;
-  left: 50.5%;
-  width: 378px;
-  height: 431px;
-  margin-left: -92px;
-}
-.content .sec_1 .img_all p {
-  position: absolute;
-  top: 660px;
-  left: 50%;
-  margin-left: -174px;
+.section_hybrid_zero .com_hybrid {
+  height: 100%;
 }
