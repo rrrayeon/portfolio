@@ -53,6 +53,43 @@ section {
 section .section_hybrid_1 {
   height: 950px;
 }
+section .section_hybrid_1 .section_hybrid_1_bg {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 1420px;
+  height: 800px;
+  margin-left: -620px;
+}
+section .section_hybrid_1 h2 {
+  position: absolute;
+  top: 74px;
+  left: 50%;
+  margin-left: -32px;
+}
+section .section_hybrid_1 .strip_hybrid_1 {
+  position: absolute;
+  top: 169px;
+  left: 50.5%;
+  width: 240px;
+  height: 457px;
+  margin-left: -48px;
+}
+section .section_hybrid_1 .man_hybrid_1 {
+  position: absolute;
+  top: 168px;
+  left: 50.5%;
+  width: 378px;
+  height: 431px;
+  margin-left: -92px;
+}
+section .section_hybrid_1 p {
+  position: absolute;
+  top: 660px;
+  left: 50%;
+  margin-left: -174px;
+}
 section .section_hybrid_2 {
   height: 694px;
   background-color: red;
