@@ -46,53 +46,53 @@ body,
 html {
   height: 100%;
 }
-.hybrid_zero {
+section {
   margin-left: 180px;
   background-color: #000;
 }
-.hybrid_zero .section_hybrid_1 {
+section .section_hybrid_1 {
   height: 950px;
 }
-.hybrid_zero .section_hybrid_2 {
+section .section_hybrid_2 {
   height: 694px;
   background-color: red;
 }
-.hybrid_zero .section_hybrid_3 {
+section .section_hybrid_3 {
   height: 800px;
 }
-.hybrid_zero .section_hybrid_4 {
+section .section_hybrid_4 {
   height: 1054px;
   background-color: red;
 }
-.hybrid_zero .section_hybrid_5 {
+section .section_hybrid_5 {
   height: 1365px;
 }
-.hybrid_zero .section_hybrid_6 {
+section .section_hybrid_6 {
   height: 1397px;
   background-color: red;
 }
-.hybrid_zero .section_hybrid_7 {
+section .section_hybrid_7 {
   height: 754px;
 }
 body,
 html {
   height: 100%;
 }
-.f_performance {
+section {
   margin-left: 180px;
   background-color: #000;
 }
-.f_performance .section_performance_1 {
+section .section_performance_1 {
   height: 2550px;
 }
-.f_performance .section_performance_2 {
+section .section_performance_2 {
   height: 1600px;
   background-color: red;
 }
-.f_performance .section_performance_3 {
+section .section_performance_3 {
   height: 1600px;
 }
-.f_performance .section_performance_4 {
+section .section_performance_4 {
   height: 1274px;
   background-color: red;
 }
@@ -100,17 +100,17 @@ body,
 html {
   height: 100%;
 }
-.membership {
+section {
   margin-left: 180px;
   background-color: #000;
 }
-.membership .section_membership_1 {
+section .section_membership_1 {
   height: 950px;
 }
-.membership .section_membership_2 {
+section .section_membership_2 {
   height: 1064px;
   background-color: red;
 }
-.membership .section_membership_3 {
+section .section_membership_3 {
   height: 2551px;
 }
