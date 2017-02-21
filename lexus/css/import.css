@@ -1,7 +1,4 @@
 @import "common.css";
-div {
-  outline: 1px solid gray;
-}
 html,
 body {
   height: 100%;
@@ -52,7 +49,6 @@ section {
 }
 section .section_hybrid_1 {
   height: 950px;
-  position: relative;
 }
 section .section_hybrid_1 .section_hybrid_1_bg {
   display: block;
@@ -64,6 +60,8 @@ section .section_hybrid_1 .section_hybrid_1_bg {
   margin-left: -620px;
 }
 section .section_hybrid_1 h2 {
+  width: 245px;
+  height: 61px;
   position: absolute;
   top: 74px;
   left: 50%;
@@ -86,6 +84,8 @@ section .section_hybrid_1 .man_hybrid_1 {
   margin-left: -92px;
 }
 section .section_hybrid_1 p {
+  width: 528px;
+  height: 46px;
   position: absolute;
   top: 660px;
   left: 50%;
@@ -94,9 +94,10 @@ section .section_hybrid_1 p {
 section .section_hybrid_2 {
   height: 694px;
   position: relative;
-  background-color: red;
 }
 section .section_hybrid_2 .section_hybrid_2_bg {
+  width: 2000px;
+  height: 1600px;
   position: absolute;
   top: 50px;
   left: 54.125%;
@@ -110,6 +111,8 @@ section .section_hybrid_2 strong {
   top: 103px;
 }
 section .section_hybrid_2 .section_hybrid_2_video {
+  width: 676px;
+  height: 360px;
   position: absolute;
   left: 50%;
   top: 180px;
@@ -117,10 +120,71 @@ section .section_hybrid_2 .section_hybrid_2_video {
 }
 section .section_hybrid_3 {
   height: 800px;
+  position: relative;
+}
+section .section_hybrid_3 h2 {
+  width: 696px;
+  height: 385px;
+  position: absolute;
+  top: 115px;
+  left: 50%;
+  margin-left: -370px;
+}
+section .section_hybrid_3 a {
+  width: 272px;
+  height: 40px;
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 590px;
+  margin-left: -136px;
 }
 section .section_hybrid_4 {
   height: 1054px;
-  background-color: red;
+  position: relative;
+  background-color: #FFF;
+  overflow: hidden;
+}
+section .section_hybrid_4 .section_hybrid_4_section_1 {
+  height: 360px;
+  overflow: hidden;
+}
+section .section_hybrid_4 .section_hybrid_4_section_1 .section_hybrid_4_bg_1 {
+  width: 315px;
+  height: 960px;
+  position: absolute;
+  top: -300px;
+  left: 56%;
+  opacity: 0.901328;
+}
+section .section_hybrid_4 .section_hybrid_4_section_1 .section_hybrid_4_text {
+  position: absolute;
+  left: 50%;
+  top: 105px;
+  margin: 0 0 0 -226px;
+  width: 444px;
+}
+section .section_hybrid_4 .section_hybrid_4_section_1 .section_hybrid_4_text h3 {
+  width: 361px;
+  height: 51px;
+  margin: 0 auto;
+}
+section .section_hybrid_4 .section_hybrid_4_section_1 .section_hybrid_4_text p {
+  width: 444px;
+  height: 62px;
+  position: absolute;
+  top: 80px;
+}
+section .section_hybrid_4 .section_hybrid_4_section_2 {
+  height: 694px;
+  overflow: hidden;
+  background: #0f0f0f;
+}
+section .section_hybrid_4 .section_hybrid_4_section_2 .section_hybrid_4_bg_2 {
+  position: relative;
+  left: 50%;
+  top: -198px;
+  margin-left: -720px;
 }
 section .section_hybrid_5 {
   height: 1365px;
