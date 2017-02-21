@@ -52,6 +52,7 @@ section {
 }
 section .section_hybrid_1 {
   height: 950px;
+  position: relative;
 }
 section .section_hybrid_1 .section_hybrid_1_bg {
   display: block;
@@ -92,7 +93,27 @@ section .section_hybrid_1 p {
 }
 section .section_hybrid_2 {
   height: 694px;
+  position: relative;
   background-color: red;
+}
+section .section_hybrid_2 .section_hybrid_2_bg {
+  position: absolute;
+  top: 50px;
+  left: 54.125%;
+}
+section .section_hybrid_2 strong {
+  margin-left: -93px;
+  width: 199px;
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 103px;
+}
+section .section_hybrid_2 .section_hybrid_2_video {
+  position: absolute;
+  left: 50%;
+  top: 180px;
+  margin-left: -338px;
 }
 section .section_hybrid_3 {
   height: 800px;
