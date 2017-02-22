@@ -176,6 +176,7 @@ section .section_hybrid_4 .section_hybrid_4_section_1 .section_hybrid_4_text_1 p
   top: 80px;
 }
 section .section_hybrid_4 .section_hybrid_4_section_2 {
+  position: relative;
   height: 694px;
   overflow: hidden;
   background: #0f0f0f;
@@ -205,6 +206,14 @@ section .section_hybrid_4 .section_hybrid_4_section_2 .section_hybrid_4_text_2 s
   margin-left: -151px;
   width: 303px;
   z-index: 10;
+}
+section .section_hybrid_4 .section_hybrid_4_section_2 .section_hybrid_4_text_2 p {
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 103px;
+  margin-left: -327px;
+  width: 654px;
 }
 section .section_hybrid_5 {
   height: 1365px;
