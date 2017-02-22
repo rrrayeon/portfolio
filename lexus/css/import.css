@@ -254,8 +254,9 @@ section .section_hybrid_5 .section_hybrid_5_text li h4 {
 }
 section .section_hybrid_5 .section_hybrid_5_text li span {
   display: block;
-  float: right;
-  margin-top: -40px;
+  float: left;
+  margin-left: 250px;
+  margin-top: -42px;
   line-height: 70px;
 }
 section .section_hybrid_6 {
