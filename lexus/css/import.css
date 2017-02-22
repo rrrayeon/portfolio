@@ -217,6 +217,46 @@ section .section_hybrid_4 .section_hybrid_4_section_2 .section_hybrid_4_text_2 p
 }
 section .section_hybrid_5 {
   height: 1365px;
+  position: relative;
+  overflow: hidden;
+}
+section .section_hybrid_5 .section_hybrid_5_bg {
+  margin-top: -242.637px;
+  width: 996px;
+  height: 2365px;
+  position: absolute;
+  top: -500px;
+  left: 29.507042%;
+  opacity: 0.61685;
+}
+section .section_hybrid_5 .section_hybrid_5_text {
+  position: absolute;
+  left: 50%;
+  top: 142px;
+  margin: 0 0 0 -374.5px;
+  width: 749px;
+  z-index: 10;
+}
+section .section_hybrid_5 .section_hybrid_5_text h3 {
+  width: 749px;
+  height: 45px;
+  margin-bottom: 126px;
+}
+section .section_hybrid_5 .section_hybrid_5_text li {
+  float: left;
+  width: 100%;
+  border-top: 1px solid #3e3e3e;
+  margin-bottom: 10px;
+  height: 220px;
+}
+section .section_hybrid_5 .section_hybrid_5_text li h4 {
+  margin-top: 28px;
+}
+section .section_hybrid_5 .section_hybrid_5_text li span {
+  display: block;
+  float: right;
+  margin-top: -40px;
+  line-height: 70px;
 }
 section .section_hybrid_6 {
   height: 1397px;
