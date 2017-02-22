@@ -157,19 +157,19 @@ section .section_hybrid_4 .section_hybrid_4_section_1 .section_hybrid_4_bg_1 {
   left: 56%;
   opacity: 0.901328;
 }
-section .section_hybrid_4 .section_hybrid_4_section_1 .section_hybrid_4_text {
+section .section_hybrid_4 .section_hybrid_4_section_1 .section_hybrid_4_text_1 {
   position: absolute;
   left: 50%;
   top: 105px;
   margin: 0 0 0 -226px;
   width: 444px;
 }
-section .section_hybrid_4 .section_hybrid_4_section_1 .section_hybrid_4_text h3 {
+section .section_hybrid_4 .section_hybrid_4_section_1 .section_hybrid_4_text_1 h3 {
   width: 361px;
   height: 51px;
   margin: 0 auto;
 }
-section .section_hybrid_4 .section_hybrid_4_section_1 .section_hybrid_4_text p {
+section .section_hybrid_4 .section_hybrid_4_section_1 .section_hybrid_4_text_1 p {
   width: 444px;
   height: 62px;
   position: absolute;
@@ -185,6 +185,26 @@ section .section_hybrid_4 .section_hybrid_4_section_2 .section_hybrid_4_bg_2 {
   left: 50%;
   top: -198px;
   margin-left: -720px;
+}
+section .section_hybrid_4 .section_hybrid_4_section_2 .section_hybrid_4_text_2 {
+  position: absolute;
+  left: 50%;
+  top: 186px;
+  margin: 0 0 0 -366.5px;
+  width: 733px;
+}
+section .section_hybrid_4 .section_hybrid_4_section_2 .section_hybrid_4_text_2 h3 {
+  position: relative;
+  z-index: 10;
+}
+section .section_hybrid_4 .section_hybrid_4_section_2 .section_hybrid_4_text_2 strong {
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 190px;
+  margin-left: -151px;
+  width: 303px;
+  z-index: 10;
 }
 section .section_hybrid_5 {
   height: 1365px;
