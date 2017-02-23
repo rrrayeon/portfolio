@@ -267,6 +267,14 @@ section .section_hybrid_6 {
 section .section_hybrid_6 .section_hybrid_6_section_1 {
   height: 450px;
   overflow: hidden;
+  background-color: #1c1c1c;
+}
+section .section_hybrid_6 .section_hybrid_6_section_1 .section_hybrid_6_bg_1 {
+  position: relative;
+  left: 50%;
+  margin-left: -710px;
+  background: url(http://www.lexus.co.kr/asset/images/hybrid/bg_gra_s4_1.png) 0 0 repeat-x;
+  width: 100%;
 }
 section .section_hybrid_7 {
   height: 754px;
