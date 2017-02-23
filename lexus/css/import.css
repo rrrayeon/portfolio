@@ -43,14 +43,14 @@ body,
 html {
   height: 100%;
 }
-section {
+section#hybrid {
   margin-left: 180px;
   background-color: #000;
 }
-section .section_hybrid_1 {
+section#hybrid .section_hybrid_1 {
   height: 950px;
 }
-section .section_hybrid_1 .section_hybrid_1_bg {
+section#hybrid .section_hybrid_1 .section_hybrid_1_bg {
   display: block;
   position: absolute;
   top: 0;
@@ -59,7 +59,7 @@ section .section_hybrid_1 .section_hybrid_1_bg {
   height: 800px;
   margin-left: -620px;
 }
-section .section_hybrid_1 h2 {
+section#hybrid .section_hybrid_1 h2 {
   width: 245px;
   height: 61px;
   position: absolute;
@@ -67,7 +67,7 @@ section .section_hybrid_1 h2 {
   left: 50%;
   margin-left: -32px;
 }
-section .section_hybrid_1 .strip_hybrid_1 {
+section#hybrid .section_hybrid_1 .strip_hybrid_1 {
   position: absolute;
   top: 169px;
   left: 50.5%;
@@ -75,7 +75,7 @@ section .section_hybrid_1 .strip_hybrid_1 {
   height: 457px;
   margin-left: -48px;
 }
-section .section_hybrid_1 .man_hybrid_1 {
+section#hybrid .section_hybrid_1 .man_hybrid_1 {
   position: absolute;
   top: 168px;
   left: 50.5%;
@@ -83,7 +83,7 @@ section .section_hybrid_1 .man_hybrid_1 {
   height: 431px;
   margin-left: -92px;
 }
-section .section_hybrid_1 p {
+section#hybrid .section_hybrid_1 p {
   width: 528px;
   height: 46px;
   position: absolute;
@@ -91,18 +91,18 @@ section .section_hybrid_1 p {
   left: 50%;
   margin-left: -174px;
 }
-section .section_hybrid_2 {
+section#hybrid .section_hybrid_2 {
   height: 694px;
   position: relative;
 }
-section .section_hybrid_2 .section_hybrid_2_bg {
+section#hybrid .section_hybrid_2 .section_hybrid_2_bg {
   width: 2000px;
   height: 1600px;
   position: absolute;
   top: 50px;
   left: 54.125%;
 }
-section .section_hybrid_2 strong {
+section#hybrid .section_hybrid_2 strong {
   margin-left: -93px;
   width: 199px;
   display: block;
@@ -110,7 +110,7 @@ section .section_hybrid_2 strong {
   left: 50%;
   top: 103px;
 }
-section .section_hybrid_2 .section_hybrid_2_video {
+section#hybrid .section_hybrid_2 .section_hybrid_2_video {
   width: 676px;
   height: 360px;
   position: absolute;
@@ -118,11 +118,11 @@ section .section_hybrid_2 .section_hybrid_2_video {
   top: 180px;
   margin-left: -338px;
 }
-section .section_hybrid_3 {
+section#hybrid .section_hybrid_3 {
   height: 800px;
   position: relative;
 }
-section .section_hybrid_3 h2 {
+section#hybrid .section_hybrid_3 h2 {
   width: 696px;
   height: 385px;
   position: absolute;
@@ -130,7 +130,7 @@ section .section_hybrid_3 h2 {
   left: 50%;
   margin-left: -370px;
 }
-section .section_hybrid_3 a {
+section#hybrid .section_hybrid_3 a {
   width: 272px;
   height: 40px;
   display: block;
@@ -139,17 +139,17 @@ section .section_hybrid_3 a {
   top: 590px;
   margin-left: -136px;
 }
-section .section_hybrid_4 {
+section#hybrid .section_hybrid_4 {
   height: 1054px;
   position: relative;
   background-color: #FFF;
   overflow: hidden;
 }
-section .section_hybrid_4 .section_hybrid_4_section_1 {
+section#hybrid .section_hybrid_4 .section_hybrid_4_section_1 {
   height: 360px;
   overflow: hidden;
 }
-section .section_hybrid_4 .section_hybrid_4_section_1 .section_hybrid_4_bg_1 {
+section#hybrid .section_hybrid_4 .section_hybrid_4_section_1 .section_hybrid_4_bg_1 {
   width: 315px;
   height: 960px;
   position: absolute;
@@ -157,48 +157,48 @@ section .section_hybrid_4 .section_hybrid_4_section_1 .section_hybrid_4_bg_1 {
   left: 56%;
   opacity: 0.901328;
 }
-section .section_hybrid_4 .section_hybrid_4_section_1 .section_hybrid_4_text_1 {
+section#hybrid .section_hybrid_4 .section_hybrid_4_section_1 .section_hybrid_4_text_1 {
   position: absolute;
   left: 50%;
   top: 105px;
   margin: 0 0 0 -226px;
   width: 444px;
 }
-section .section_hybrid_4 .section_hybrid_4_section_1 .section_hybrid_4_text_1 h3 {
+section#hybrid .section_hybrid_4 .section_hybrid_4_section_1 .section_hybrid_4_text_1 h3 {
   width: 361px;
   height: 51px;
   margin: 0 auto;
 }
-section .section_hybrid_4 .section_hybrid_4_section_1 .section_hybrid_4_text_1 p {
+section#hybrid .section_hybrid_4 .section_hybrid_4_section_1 .section_hybrid_4_text_1 p {
   width: 444px;
   height: 62px;
   position: absolute;
   top: 80px;
 }
-section .section_hybrid_4 .section_hybrid_4_section_2 {
+section#hybrid .section_hybrid_4 .section_hybrid_4_section_2 {
   position: relative;
   height: 694px;
   overflow: hidden;
   background: #0f0f0f;
 }
-section .section_hybrid_4 .section_hybrid_4_section_2 .section_hybrid_4_bg_2 {
+section#hybrid .section_hybrid_4 .section_hybrid_4_section_2 .section_hybrid_4_bg_2 {
   position: relative;
   left: 50%;
   top: -198px;
   margin-left: -720px;
 }
-section .section_hybrid_4 .section_hybrid_4_section_2 .section_hybrid_4_text_2 {
+section#hybrid .section_hybrid_4 .section_hybrid_4_section_2 .section_hybrid_4_text_2 {
   position: absolute;
   left: 50%;
   top: 186px;
   margin: 0 0 0 -366.5px;
   width: 733px;
 }
-section .section_hybrid_4 .section_hybrid_4_section_2 .section_hybrid_4_text_2 h3 {
+section#hybrid .section_hybrid_4 .section_hybrid_4_section_2 .section_hybrid_4_text_2 h3 {
   position: relative;
   z-index: 10;
 }
-section .section_hybrid_4 .section_hybrid_4_section_2 .section_hybrid_4_text_2 strong {
+section#hybrid .section_hybrid_4 .section_hybrid_4_section_2 .section_hybrid_4_text_2 strong {
   display: block;
   position: absolute;
   left: 50%;
@@ -207,7 +207,7 @@ section .section_hybrid_4 .section_hybrid_4_section_2 .section_hybrid_4_text_2 s
   width: 303px;
   z-index: 10;
 }
-section .section_hybrid_4 .section_hybrid_4_section_2 .section_hybrid_4_text_2 p {
+section#hybrid .section_hybrid_4 .section_hybrid_4_section_2 .section_hybrid_4_text_2 p {
   display: block;
   position: absolute;
   left: 50%;
@@ -215,12 +215,12 @@ section .section_hybrid_4 .section_hybrid_4_section_2 .section_hybrid_4_text_2 p
   margin-left: -327px;
   width: 654px;
 }
-section .section_hybrid_5 {
+section#hybrid .section_hybrid_5 {
   height: 1365px;
   position: relative;
   overflow: hidden;
 }
-section .section_hybrid_5 .section_hybrid_5_bg {
+section#hybrid .section_hybrid_5 .section_hybrid_5_bg {
   margin-top: -242.637px;
   width: 996px;
   height: 2365px;
@@ -229,7 +229,7 @@ section .section_hybrid_5 .section_hybrid_5_bg {
   left: 29.507042%;
   opacity: 0.61685;
 }
-section .section_hybrid_5 .section_hybrid_5_text {
+section#hybrid .section_hybrid_5 .section_hybrid_5_text {
   position: absolute;
   left: 50%;
   top: 142px;
@@ -237,46 +237,54 @@ section .section_hybrid_5 .section_hybrid_5_text {
   width: 749px;
   z-index: 10;
 }
-section .section_hybrid_5 .section_hybrid_5_text h3 {
+section#hybrid .section_hybrid_5 .section_hybrid_5_text h3 {
   width: 749px;
   height: 45px;
   margin-bottom: 126px;
 }
-section .section_hybrid_5 .section_hybrid_5_text li {
+section#hybrid .section_hybrid_5 .section_hybrid_5_text li {
   float: left;
   width: 100%;
   border-top: 1px solid #3e3e3e;
   margin-bottom: 10px;
   height: 220px;
 }
-section .section_hybrid_5 .section_hybrid_5_text li h4 {
+section#hybrid .section_hybrid_5 .section_hybrid_5_text li h4 {
   margin-top: 28px;
 }
-section .section_hybrid_5 .section_hybrid_5_text li span {
+section#hybrid .section_hybrid_5 .section_hybrid_5_text li span {
   display: block;
   float: left;
   margin-left: 250px;
   margin-top: -42px;
   line-height: 70px;
 }
-section .section_hybrid_6 {
+section#hybrid .section_hybrid_6 {
   position: relative;
   overflow: hidden;
   height: 1397px;
 }
-section .section_hybrid_6 .section_hybrid_6_section_1 {
+section#hybrid .section_hybrid_6 .section_hybrid_6_section_1 {
   height: 450px;
   overflow: hidden;
   background-color: #1c1c1c;
 }
-section .section_hybrid_6 .section_hybrid_6_section_1 .section_hybrid_6_bg_1 {
+section#hybrid .section_hybrid_6 .section_hybrid_6_section_1 .section_hybrid_6_bg_1 {
   position: relative;
   left: 50%;
   margin-left: -710px;
   background: url(http://www.lexus.co.kr/asset/images/hybrid/bg_gra_s4_1.png) 0 0 repeat-x;
   width: 100%;
 }
-section .section_hybrid_7 {
+section#hybrid .section_hybrid_6 .section_hybrid_6_section_1 h3 {
+  width: 671px;
+  height: 46px;
+  position: absolute;
+  left: 50%;
+  top: 209px;
+  margin-left: -335.5px;
+}
+section#hybrid .section_hybrid_7 {
   height: 754px;
 }
 body,
