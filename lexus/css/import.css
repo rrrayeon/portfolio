@@ -43,14 +43,14 @@ body,
 html {
   height: 100%;
 }
-section#hybrid {
+#hybrid {
   margin-left: 180px;
   background-color: #000;
 }
-section#hybrid .section_hybrid_1 {
+#hybrid .section_hybrid_1 {
   height: 950px;
 }
-section#hybrid .section_hybrid_1 .section_hybrid_1_bg {
+#hybrid .section_hybrid_1 .section_hybrid_1_bg {
   display: block;
   position: absolute;
   top: 0;
@@ -59,7 +59,7 @@ section#hybrid .section_hybrid_1 .section_hybrid_1_bg {
   height: 800px;
   margin-left: -620px;
 }
-section#hybrid .section_hybrid_1 h2 {
+#hybrid .section_hybrid_1 h2 {
   width: 245px;
   height: 61px;
   position: absolute;
@@ -67,7 +67,7 @@ section#hybrid .section_hybrid_1 h2 {
   left: 50%;
   margin-left: -32px;
 }
-section#hybrid .section_hybrid_1 .strip_hybrid_1 {
+#hybrid .section_hybrid_1 .strip_hybrid_1 {
   position: absolute;
   top: 169px;
   left: 50.5%;
@@ -75,7 +75,7 @@ section#hybrid .section_hybrid_1 .strip_hybrid_1 {
   height: 457px;
   margin-left: -48px;
 }
-section#hybrid .section_hybrid_1 .man_hybrid_1 {
+#hybrid .section_hybrid_1 .man_hybrid_1 {
   position: absolute;
   top: 168px;
   left: 50.5%;
@@ -83,7 +83,7 @@ section#hybrid .section_hybrid_1 .man_hybrid_1 {
   height: 431px;
   margin-left: -92px;
 }
-section#hybrid .section_hybrid_1 p {
+#hybrid .section_hybrid_1 p {
   width: 528px;
   height: 46px;
   position: absolute;
@@ -91,18 +91,18 @@ section#hybrid .section_hybrid_1 p {
   left: 50%;
   margin-left: -174px;
 }
-section#hybrid .section_hybrid_2 {
+#hybrid .section_hybrid_2 {
   height: 694px;
   position: relative;
 }
-section#hybrid .section_hybrid_2 .section_hybrid_2_bg {
+#hybrid .section_hybrid_2 .section_hybrid_2_bg {
   width: 2000px;
   height: 1600px;
   position: absolute;
   top: 50px;
   left: 54.125%;
 }
-section#hybrid .section_hybrid_2 strong {
+#hybrid .section_hybrid_2 strong {
   margin-left: -93px;
   width: 199px;
   display: block;
@@ -110,7 +110,7 @@ section#hybrid .section_hybrid_2 strong {
   left: 50%;
   top: 103px;
 }
-section#hybrid .section_hybrid_2 .section_hybrid_2_video {
+#hybrid .section_hybrid_2 .section_hybrid_2_video {
   width: 676px;
   height: 360px;
   position: absolute;
@@ -118,11 +118,11 @@ section#hybrid .section_hybrid_2 .section_hybrid_2_video {
   top: 180px;
   margin-left: -338px;
 }
-section#hybrid .section_hybrid_3 {
+#hybrid .section_hybrid_3 {
   height: 800px;
   position: relative;
 }
-section#hybrid .section_hybrid_3 h2 {
+#hybrid .section_hybrid_3 h2 {
   width: 696px;
   height: 385px;
   position: absolute;
@@ -130,7 +130,7 @@ section#hybrid .section_hybrid_3 h2 {
   left: 50%;
   margin-left: -370px;
 }
-section#hybrid .section_hybrid_3 a {
+#hybrid .section_hybrid_3 a {
   width: 272px;
   height: 40px;
   display: block;
@@ -139,17 +139,16 @@ section#hybrid .section_hybrid_3 a {
   top: 590px;
   margin-left: -136px;
 }
-section#hybrid .section_hybrid_4 {
+#hybrid .section_hybrid_4 {
   height: 1054px;
   position: relative;
   background-color: #FFF;
   overflow: hidden;
 }
-section#hybrid .section_hybrid_4 .section_hybrid_4_section_1 {
+#hybrid .section_hybrid_4 .section_hybrid_4_section_1 {
   height: 360px;
-  overflow: hidden;
 }
-section#hybrid .section_hybrid_4 .section_hybrid_4_section_1 .section_hybrid_4_bg_1 {
+#hybrid .section_hybrid_4 .section_hybrid_4_section_1 .section_hybrid_4_bg_1 {
   width: 315px;
   height: 960px;
   position: absolute;
@@ -157,48 +156,48 @@ section#hybrid .section_hybrid_4 .section_hybrid_4_section_1 .section_hybrid_4_b
   left: 56%;
   opacity: 0.901328;
 }
-section#hybrid .section_hybrid_4 .section_hybrid_4_section_1 .section_hybrid_4_text_1 {
+#hybrid .section_hybrid_4 .section_hybrid_4_section_1 .section_hybrid_4_text_1 {
   position: absolute;
   left: 50%;
   top: 105px;
   margin: 0 0 0 -226px;
   width: 444px;
 }
-section#hybrid .section_hybrid_4 .section_hybrid_4_section_1 .section_hybrid_4_text_1 h3 {
+#hybrid .section_hybrid_4 .section_hybrid_4_section_1 .section_hybrid_4_text_1 h3 {
   width: 361px;
   height: 51px;
   margin: 0 auto;
 }
-section#hybrid .section_hybrid_4 .section_hybrid_4_section_1 .section_hybrid_4_text_1 p {
+#hybrid .section_hybrid_4 .section_hybrid_4_section_1 .section_hybrid_4_text_1 p {
   width: 444px;
   height: 62px;
   position: absolute;
   top: 80px;
 }
-section#hybrid .section_hybrid_4 .section_hybrid_4_section_2 {
+#hybrid .section_hybrid_4 .section_hybrid_4_section_2 {
   position: relative;
   height: 694px;
   overflow: hidden;
   background: #0f0f0f;
 }
-section#hybrid .section_hybrid_4 .section_hybrid_4_section_2 .section_hybrid_4_bg_2 {
+#hybrid .section_hybrid_4 .section_hybrid_4_section_2 .section_hybrid_4_bg_2 {
   position: relative;
   left: 50%;
   top: -198px;
   margin-left: -720px;
 }
-section#hybrid .section_hybrid_4 .section_hybrid_4_section_2 .section_hybrid_4_text_2 {
+#hybrid .section_hybrid_4 .section_hybrid_4_section_2 .section_hybrid_4_text_2 {
   position: absolute;
   left: 50%;
   top: 186px;
   margin: 0 0 0 -366.5px;
   width: 733px;
 }
-section#hybrid .section_hybrid_4 .section_hybrid_4_section_2 .section_hybrid_4_text_2 h3 {
+#hybrid .section_hybrid_4 .section_hybrid_4_section_2 .section_hybrid_4_text_2 h3 {
   position: relative;
   z-index: 10;
 }
-section#hybrid .section_hybrid_4 .section_hybrid_4_section_2 .section_hybrid_4_text_2 strong {
+#hybrid .section_hybrid_4 .section_hybrid_4_section_2 .section_hybrid_4_text_2 strong {
   display: block;
   position: absolute;
   left: 50%;
@@ -207,7 +206,7 @@ section#hybrid .section_hybrid_4 .section_hybrid_4_section_2 .section_hybrid_4_t
   width: 303px;
   z-index: 10;
 }
-section#hybrid .section_hybrid_4 .section_hybrid_4_section_2 .section_hybrid_4_text_2 p {
+#hybrid .section_hybrid_4 .section_hybrid_4_section_2 .section_hybrid_4_text_2 p {
   display: block;
   position: absolute;
   left: 50%;
@@ -215,12 +214,12 @@ section#hybrid .section_hybrid_4 .section_hybrid_4_section_2 .section_hybrid_4_t
   margin-left: -327px;
   width: 654px;
 }
-section#hybrid .section_hybrid_5 {
+#hybrid .section_hybrid_5 {
   height: 1365px;
   position: relative;
   overflow: hidden;
 }
-section#hybrid .section_hybrid_5 .section_hybrid_5_bg {
+#hybrid .section_hybrid_5 .section_hybrid_5_bg {
   margin-top: -242.637px;
   width: 996px;
   height: 2365px;
@@ -229,7 +228,7 @@ section#hybrid .section_hybrid_5 .section_hybrid_5_bg {
   left: 29.507042%;
   opacity: 0.61685;
 }
-section#hybrid .section_hybrid_5 .section_hybrid_5_text {
+#hybrid .section_hybrid_5 .section_hybrid_5_text {
   position: absolute;
   left: 50%;
   top: 142px;
@@ -237,46 +236,44 @@ section#hybrid .section_hybrid_5 .section_hybrid_5_text {
   width: 749px;
   z-index: 10;
 }
-section#hybrid .section_hybrid_5 .section_hybrid_5_text h3 {
+#hybrid .section_hybrid_5 .section_hybrid_5_text h3 {
   width: 749px;
   height: 45px;
   margin-bottom: 126px;
 }
-section#hybrid .section_hybrid_5 .section_hybrid_5_text li {
+#hybrid .section_hybrid_5 .section_hybrid_5_text li {
   float: left;
   width: 100%;
   border-top: 1px solid #3e3e3e;
   margin-bottom: 10px;
   height: 220px;
 }
-section#hybrid .section_hybrid_5 .section_hybrid_5_text li h4 {
+#hybrid .section_hybrid_5 .section_hybrid_5_text li h4 {
   margin-top: 28px;
 }
-section#hybrid .section_hybrid_5 .section_hybrid_5_text li span {
+#hybrid .section_hybrid_5 .section_hybrid_5_text li span {
   display: block;
   float: left;
   margin-left: 250px;
   margin-top: -42px;
   line-height: 70px;
 }
-section#hybrid .section_hybrid_6 {
+#hybrid .section_hybrid_6 {
   position: relative;
-  overflow: hidden;
   height: 1397px;
 }
-section#hybrid .section_hybrid_6 .section_hybrid_6_section_1 {
+#hybrid .section_hybrid_6 .section_hybrid_6_section_1 {
   height: 450px;
-  overflow: hidden;
   background-color: #1c1c1c;
 }
-section#hybrid .section_hybrid_6 .section_hybrid_6_section_1 .section_hybrid_6_bg_1 {
+#hybrid .section_hybrid_6 .section_hybrid_6_section_1 .section_hybrid_6_bg_1 {
   position: relative;
   left: 50%;
   margin-left: -710px;
   background: url(http://www.lexus.co.kr/asset/images/hybrid/bg_gra_s4_1.png) 0 0 repeat-x;
   width: 100%;
 }
-section#hybrid .section_hybrid_6 .section_hybrid_6_section_1 h3 {
+#hybrid .section_hybrid_6 .section_hybrid_6_section_1 h3 {
   width: 671px;
   height: 46px;
   position: absolute;
@@ -284,17 +281,17 @@ section#hybrid .section_hybrid_6 .section_hybrid_6_section_1 h3 {
   top: 209px;
   margin-left: -335.5px;
 }
-section#hybrid .section_hybrid_6 .section_hybrid_6_section_2 {
+#hybrid .section_hybrid_6 .section_hybrid_6_section_2 {
   position: relative;
   height: 947px;
   overflow: hidden;
 }
-section#hybrid .section_hybrid_6 .section_hybrid_6_section_2 .section_hybrid_6_bg_2 {
+#hybrid .section_hybrid_6 .section_hybrid_6_section_2 .section_hybrid_6_bg_2 {
   position: absolute;
   left: 9.1549295%;
   top: -500px;
 }
-section#hybrid .section_hybrid_6 .section_hybrid_6_section_2 .section_hybrid_6_text_2 {
+#hybrid .section_hybrid_6 .section_hybrid_6_section_2 .section_hybrid_6_text_2 {
   width: 750px;
   position: absolute;
   left: 50%;
@@ -302,35 +299,35 @@ section#hybrid .section_hybrid_6 .section_hybrid_6_section_2 .section_hybrid_6_t
   margin: 0 0 0 -375px;
   z-index: 10;
 }
-section#hybrid .section_hybrid_6 .section_hybrid_6_section_2 .section_hybrid_6_text_2 h3 {
+#hybrid .section_hybrid_6 .section_hybrid_6_section_2 .section_hybrid_6_text_2 h3 {
   position: absolute;
   top: 0;
   left: 0;
 }
-section#hybrid .section_hybrid_6 .section_hybrid_6_section_2 .section_hybrid_6_text_2 p {
+#hybrid .section_hybrid_6 .section_hybrid_6_section_2 .section_hybrid_6_text_2 p {
   position: absolute;
   top: 0;
   left: 245px;
 }
-section#hybrid .section_hybrid_6 .section_hybrid_6_section_2 .section_hybrid_6_text_2 span {
+#hybrid .section_hybrid_6 .section_hybrid_6_section_2 .section_hybrid_6_text_2 span {
   position: absolute;
   display: block;
   top: 248px;
   left: 0;
 }
-section#hybrid .section_hybrid_7 {
+#hybrid .section_hybrid_7 {
   height: 754px;
   background-color: #FFF;
 }
-section#hybrid .section_hybrid_7 h3 {
+#hybrid .section_hybrid_7 h3 {
   padding: 84px 0 104px;
   text-align: center;
 }
-section#hybrid .section_hybrid_7 .section_hybrid_7_list {
+#hybrid .section_hybrid_7 .section_hybrid_7_list {
   margin-left: 13%;
   width: 74%;
 }
-section#hybrid .section_hybrid_7 .section_hybrid_7_list li {
+#hybrid .section_hybrid_7 .section_hybrid_7_list li {
   float: left;
   padding-left: 38px;
   font-size: 26px;
@@ -338,13 +335,13 @@ section#hybrid .section_hybrid_7 .section_hybrid_7_list li {
   width: 21%;
   margin-bottom: 20px;
 }
-section#hybrid .section_hybrid_7 .section_hybrid_7_list li a {
+#hybrid .section_hybrid_7 .section_hybrid_7_list li a {
   display: block;
   width: 100%;
   height: 100%;
   color: #000;
 }
-section#hybrid .section_hybrid_7 .section_hybrid_7_list li a span {
+#hybrid .section_hybrid_7 .section_hybrid_7_list li a span {
   font-weight: bold;
   display: block;
   padding: 0 0 80px 5px;
@@ -363,8 +360,18 @@ html {
 }
 #perfom .section_performance_1 .section_performance_1_section_1 {
   height: 950px;
-  overflow: hidden;
-  background-color: orange;
+}
+#perfom .section_performance_1 .section_performance_1_section_1 .btn_performance {
+  width: 34px;
+  height: 60px;
+  display: block;
+  position: fixed;
+  bottom: 30px;
+  left: 50%;
+  margin-left: 73px;
+  border: 1px red solid;
+  background: url(../image/PERFORMANCE/arr_dn.png) 0 0 no-repeat;
+  text-indent: -99999px;
 }
 #perfom .section_performance_1 .section_performance_1_section_1 .section_performance_1_bg_1 {
   position: absolute;
@@ -373,9 +380,86 @@ html {
   width: 100%;
   height: 100%;
 }
+#perfom .section_performance_1 .section_performance_1_section_1 .section_performance_1_bg_1 > img {
+  position: absolute;
+  width: 1903px;
+  height: 951px;
+  top: 0px;
+  left: -90px;
+}
+#perfom .section_performance_1 .section_performance_1_section_1 .section_performance_1_text_1 h3 {
+  width: 404px;
+  height: 88px;
+  position: absolute;
+  left: 60px;
+  top: 100px;
+}
+#perfom .section_performance_1 .section_performance_1_section_1 .section_performance_1_text_1 p {
+  width: 333px;
+  height: 110px;
+  position: absolute;
+  left: 60px;
+  top: 216px;
+}
+#perfom .section_performance_1 .section_performance_1_section_2 {
+  height: 800px;
+  background-color: red;
+  overflow: hidden;
+}
+#perfom .section_performance_1 .section_performance_1_section_2 .section_performance_1_bg_2 {
+  position: relative;
+}
+#perfom .section_performance_1 .section_performance_1_section_2 .section_performance_1_bg_2 img {
+  position: absolute;
+  left: -123px;
+  top: -92px;
+  width: 1969px;
+  height: 984px;
+}
+#perfom .section_performance_1 .section_performance_1_section_3 {
+  height: 800px;
+  position: relative;
+  overflow: hidden;
+}
+#perfom .section_performance_1 .section_performance_1_section_3 .section_performance_1_bg_3 {
+  position: relative;
+}
+#perfom .section_performance_1 .section_performance_1_section_3 .section_performance_1_bg_3 img {
+  position: absolute;
+  left: -123px;
+  top: -92px;
+  width: 1969px;
+  height: 984px;
+  margin-top: 0px;
+}
+#perfom .section_performance_1 .section_performance_1_section_3 .section_performance_1_bg_3_1 {
+  position: absolute;
+  right: 0;
+  top: -16px;
+}
+#perfom .section_performance_1 .section_performance_1_section_3 .section_performance_1_bg_3_1 img {
+  width: 500px;
+  height: 916px;
+  opacity: 0.815;
+  margin-top: 37px;
+}
+#perfom .section_performance_1 .section_performance_1_section_3 .section_performance_1_text_3 h3 {
+  width: 403px;
+  height: 38px;
+  position: absolute;
+  left: 77px;
+  top: 119px;
+}
+#perfom .section_performance_1 .section_performance_1_section_3 .section_performance_1_text_3 p {
+  width: 319px;
+  height: 61px;
+  position: absolute;
+  left: 77px;
+  top: 186px;
+}
 #perfom .section_performance_2 {
   height: 1600px;
-  background-color: red;
+  background-color: pink;
 }
 #perfom .section_performance_3 {
   height: 1600px;
