@@ -39,10 +39,6 @@ body {
   top: 220px;
   width: 180px;
 }
-body,
-html {
-  height: 100%;
-}
 #hybrid {
   margin-left: 180px;
   background-color: #000;
@@ -260,6 +256,7 @@ html {
 }
 #hybrid .section_hybrid_6 {
   position: relative;
+  overflow: hidden;
   height: 1397px;
 }
 #hybrid .section_hybrid_6 .section_hybrid_6_section_1 {
@@ -324,7 +321,7 @@ html {
   text-align: center;
 }
 #hybrid .section_hybrid_7 .section_hybrid_7_list {
-  margin-left: 13%;
+  margin-left: 14%;
   width: 74%;
 }
 #hybrid .section_hybrid_7 .section_hybrid_7_list li {
@@ -333,7 +330,7 @@ html {
   font-size: 26px;
   line-height: 2;
   width: 21%;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 #hybrid .section_hybrid_7 .section_hybrid_7_list li a {
   display: block;
@@ -344,7 +341,7 @@ html {
 #hybrid .section_hybrid_7 .section_hybrid_7_list li a span {
   font-weight: bold;
   display: block;
-  padding: 0 0 80px 5px;
+  padding-bottom: 60px;
 }
 body,
 html {
@@ -360,16 +357,16 @@ html {
 }
 #perfom .section_performance_1 .section_performance_1_section_1 {
   height: 950px;
+  position: relative;
 }
 #perfom .section_performance_1 .section_performance_1_section_1 .btn_performance {
   width: 34px;
   height: 60px;
   display: block;
-  position: fixed;
+  position: absolute;
   bottom: 30px;
   left: 50%;
-  margin-left: 73px;
-  border: 1px red solid;
+  margin-left: -17px;
   background: url(../image/PERFORMANCE/arr_dn.png) 0 0 no-repeat;
   text-indent: -99999px;
 }
@@ -673,23 +670,73 @@ html {
 }
 #perfom .section_performance_4 {
   height: 1274px;
-  background-color: red;
+  background-color: #191919;
 }
-body,
-html {
+#perfom .section_performance_4 h3 {
+  padding: 90px 0 107px;
+  text-align: center;
+}
+#perfom .section_performance_4 .section_performance_4_list {
+  margin-left: 18%;
+  width: 74%;
+}
+#perfom .section_performance_4 .section_performance_4_list li {
+  float: left;
+  width: 33.3333333%;
+  font-size: 26px;
+  line-height: 2;
+  margin-bottom: 30px;
+}
+#perfom .section_performance_4 .section_performance_4_list li a {
+  display: block;
+  width: 100%;
   height: 100%;
 }
-section {
+#perfom .section_performance_4 .section_performance_4_list li a span {
+  color: #FFF;
+  font-weight: bold;
+  display: block;
+  padding-bottom: 60px;
+}
+#member {
   margin-left: 180px;
   background-color: #000;
 }
-section .section_membership_1 {
+#member .section_membership_1 {
+  background-color: orange;
   height: 950px;
+  position: relative;
 }
-section .section_membership_2 {
+#member .section_membership_1 .section_membership_1_bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+#member .section_membership_1 .section_membership_1_bg img {
+  width: 1903px;
+  height: 1070px;
+  position: absolute;
+  top: -60px;
+  left: -90px;
+}
+#member .section_membership_1 .btn_membership {
+  width: 34px;
+  height: 60px;
+  display: block;
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  margin-left: -17px;
+  background: url(../image/MEMBERSHIP/arr_dn.png) 0 0 no-repeat;
+  text-indent: -99999px;
+}
+#member .section_membership_2 {
   height: 1064px;
   background-color: red;
 }
-section .section_membership_3 {
+#member .section_membership_3 {
   height: 2551px;
 }

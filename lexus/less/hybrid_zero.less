@@ -1,4 +1,3 @@
-body,html {height:100%;}
 
 #hybrid{
     margin-left:180px;
@@ -52,6 +51,12 @@ p{
   .section_hybrid_2 {
     height:694px;
    position: relative;
+  //  overflow:hidden;
+  //  원래 bg가 밑에까지 나와있어야하며 스크롤은 사라져야함
+// 오버플로우 히든을하면 옆에 스크롤은 사라지지만
+// bg는 가려지고
+// 오퍼블로우 히든을 빼면 옆에스크롤은 생기지만
+// bg는 다시생김
   .section_hybrid_2_bg{
     width:2000px;
     height:1600px;
@@ -221,7 +226,7 @@ strong{
   }
 .section_hybrid_6{
     position:relative;
-    // overflow:hidden;
+    overflow:hidden;
     height:1397px;
 .section_hybrid_6_section_1 {
     height:450px;
@@ -285,15 +290,15 @@ h3{
   text-align: center;
     }
 .section_hybrid_7_list{
-    margin-left: 13%;
+    margin-left: 14%;
     width:74%;
 li{
-  float:left;
-  padding-left: 38px;
-  font-size: 26px;
-  line-height: 2;
-   width:21%;
-   margin-bottom:20px;
+    float:left;
+    padding-left: 38px;
+    font-size: 26px;
+    line-height: 2;
+    width:21%;
+    margin-bottom:30px;
 a{
     display: block;
     width: 100%;
@@ -302,7 +307,7 @@ a{
 span{
   font-weight: bold;
   display: block;
-  padding: 0 0 80px 5px;
+  padding-bottom:60px;
           }
         }
       }
