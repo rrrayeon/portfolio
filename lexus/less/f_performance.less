@@ -24,6 +24,7 @@ body,html {height:100%;}
     position:absolute;
     top: 0;
     left:0;
+    overflow: hidden;
     width: 100%;
     height: 100%;
 img{
@@ -161,9 +162,55 @@ img{
   text-align: right;
   margin-left: -480px;
 h3{
-padding-bottom:26px;
+    padding-bottom:26px;
       }
     }
+.section_performance_2_gallery{
+    width:960px;
+    height:500px;
+    z-index: 3;
+    position:absolute;
+    top:155px;
+    left:50%;
+    margin-left: -480px;
+img{
+    width:960px;
+    height:500px;
+    }
+}
+.section_performance_2_slidebtn{
+  width:960px;
+  height:12px;
+  position: absolute;
+  text-align: center;
+// background-color:red;
+  left:50%;
+  top:680px;
+  margin-left:-470px;
+  z-index: 10;
+ul li{
+    display:inline-block;
+    *display: inline;
+    *zoom: 1;
+a{
+  display: block;
+  width: 9px;
+  height: 8px;
+  padding: 0;
+  margin-right: 9px;
+  text-indent: -9999px;
+  overflow: hidden;
+  background: url(../image/PERFORMANCE/sprite_indicator.png) no-repeat;
+  background-position: 0 0;
+    }
+  }
+.section_performance_2_on{
+a{
+  background: url(../image/PERFORMANCE/sprite_indicator.png) no-repeat;
+  background-position: -10px 0;
+    }
+  }
+}
 .section_performance_2_btn{
 .prev{
   left:0;
@@ -199,17 +246,6 @@ img{
 }
 
   }
-
-
-
-
-
-
-
-
-
-
-
   .section_performance_3{
     height:1600px;
     position: relative;
@@ -248,23 +284,63 @@ p{
         }
       }
     }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-  .section_performance_4{
-    height:1274px;
-    background-color:red;
+.section_performance_3_section_2{
+    height:800px;
+    overflow: hidden;
+    position: relative;
+.section_performance_3_bg_2{
+    height:800px;
+    img{
+        position: absolute;
+        width:1969px;
+        height:984px;
+        left: -123px;
+        top: -160px;
+        margin-top: 0px;
+        opacity: 0.2;
+            }
+        }
+.section_performance_3_text_2{
+h3{
+  width:301px;
+  height:20px;
+  position: absolute;
+  left:50%;
+  top:93px;
+  margin-left:-150px;
+      }
+    }
+.section_performance_3_accessories{
+  width:990px;
+  height:490px;
+  position: absolute;
+  left:50%;
+  top:50%;
+  margin-left:-495px;
+  margin-top:-245px;
+.section_performance_3_wrap{
+  position: relative;
+li{
+  position:relative;
+  float:left;
+  margin-right:10px;
+  margin-bottom:10px;
+  width: 23.9%;
+.section_performance_3_btn{
+  display: block;
+  width:60px;
+  height:60px;
+  position: absolute;
+  right:-4px;
+  bottom:2px;
+  background: url(../image/PERFORMANCE/sprite_common.png) no-repeat 0 -450px;          }
+        }
+      }
+    }
   }
-
+}
+.section_performance_4{
+  height:1274px;
+  background-color:red;
+  }
 }
