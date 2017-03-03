@@ -343,10 +343,6 @@ body {
   display: block;
   padding-bottom: 60px;
 }
-body,
-html {
-  height: 100%;
-}
 #perfom {
   margin-left: 180px;
   background-color: #000;
@@ -763,7 +759,6 @@ html {
 #member .section_membership_2 {
   height: 1064px;
   position: relative;
-  background-color: red;
 }
 #member .section_membership_2 .section_membership_2_section_1 {
   height: 614px;
@@ -813,6 +808,46 @@ html {
 #member .section_membership_2 .section_membership_2_section_1 .section_membership_2_content ul .section_membership_2_content_first {
   border-top: 4px #000 solid;
 }
+#member .section_membership_2 .section_membership_2_section_2 {
+  height: 450px;
+  position: relative;
+  overflow: hidden;
+  background-color: #000;
+}
+#member .section_membership_2 .section_membership_2_section_2 .section_membership_2_bg_2 {
+  position: relative;
+}
+#member .section_membership_2 .section_membership_2_section_2 .section_membership_2_bg_2 img {
+  width: 1220px;
+  height: 450px;
+  position: absolute;
+  left: 50%;
+  margin-left: -610px;
+}
+#member .section_membership_2 .section_membership_2_section_2 .section_membership_2_text_2 {
+  position: absolute;
+  left: 0;
+  top: 150px;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+#member .section_membership_2 .section_membership_2_section_2 .section_membership_2_text_2 h3 {
+  margin-bottom: 42px;
+}
+#member .section_membership_2 .section_membership_2_section_2 .section_membership_2_text_2 h3 img {
+  width: 529px;
+  height: 48px;
+}
+#member .section_membership_2 .section_membership_2_section_2 .section_membership_2_text_2 p {
+  width: 100%;
+  text-align: center;
+}
+#member .section_membership_2 .section_membership_2_section_2 .section_membership_2_text_2 p img {
+  width: 210px;
+  height: 50px;
+}
 #member .section_membership_3 {
   height: 2551px;
+  background-color: #FFF;
 }
