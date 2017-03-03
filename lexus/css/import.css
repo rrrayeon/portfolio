@@ -722,6 +722,33 @@ html {
   top: -60px;
   left: -90px;
 }
+#member .section_membership_1 .section_membership_1_text_1 {
+  width: 325px;
+  height: 530px;
+  position: absolute;
+  left: 60px;
+  top: 45px;
+}
+#member .section_membership_1 .section_membership_1_text_1 p,
+#member .section_membership_1 .section_membership_1_text_1 h3 {
+  position: relative;
+}
+#member .section_membership_1 .section_membership_1_text_1 h3 {
+  left: 0;
+  top: 53px;
+}
+#member .section_membership_1 .section_membership_1_text_1 .sentence_membership {
+  left: 0;
+  top: 101px;
+}
+#member .section_membership_1 .section_membership_1_text_1 .download_membership {
+  left: 0;
+  top: 181px;
+}
+#member .section_membership_1 .section_membership_1_text_1 .btns_membership {
+  left: 0;
+  top: 198px;
+}
 #member .section_membership_1 .btn_membership {
   width: 34px;
   height: 60px;
@@ -735,7 +762,56 @@ html {
 }
 #member .section_membership_2 {
   height: 1064px;
+  position: relative;
   background-color: red;
+}
+#member .section_membership_2 .section_membership_2_section_1 {
+  height: 614px;
+  background-color: #FFF;
+}
+#member .section_membership_2 .section_membership_2_section_1 .section_membership_2_title {
+  padding: 90px 0 30px;
+  margin: 0 60px 0;
+}
+#member .section_membership_2 .section_membership_2_section_1 .section_membership_2_title h2 {
+  width: 1003px;
+  height: 26px;
+  font-size: 26px;
+  letter-spacing: -1px;
+  font-weight: bold;
+  color: #222;
+}
+#member .section_membership_2 .section_membership_2_section_1 .section_membership_2_content {
+  padding: 0 60px 60px;
+  padding-bottom: 67px;
+}
+#member .section_membership_2 .section_membership_2_section_1 .section_membership_2_content ul li {
+  border-top: 1px #CCC solid;
+  font-size: 14px;
+  color: #111;
+  height: 91px;
+}
+#member .section_membership_2 .section_membership_2_section_1 .section_membership_2_content ul li span {
+  padding-top: 26px;
+  display: block;
+  float: left;
+  font-weight: bold;
+  width: 13%;
+  line-height: 1.6;
+}
+#member .section_membership_2 .section_membership_2_section_1 .section_membership_2_content ul li p {
+  padding-top: 26px;
+  float: right;
+  width: 87%;
+  line-height: 1.6;
+}
+#member .section_membership_2 .section_membership_2_section_1 .section_membership_2_content ul li .section_membership_2_content_txt {
+  font-size: 12px;
+  color: #515151;
+  padding-top: 15px;
+}
+#member .section_membership_2 .section_membership_2_section_1 .section_membership_2_content ul .section_membership_2_content_first {
+  border-top: 4px #000 solid;
 }
 #member .section_membership_3 {
   height: 2551px;
