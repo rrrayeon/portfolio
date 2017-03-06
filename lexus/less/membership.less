@@ -187,57 +187,93 @@ color:#515151;
 .section_membership_3_content{
     padding-bottom: 67px;
     padding: 0 60px 60px;
-ul{
+>ul{
 border-top:4px #000 solid;
 li{
   border-bottom:1px #CCC  solid;
-  padding:0;
   height:149px;
-div{
-  position:relative;
-  padding: 36px 0 0;
-span{
-  width:40px;
-  height:45px;
-  display:block;
-  position:absolute;
-  left:32px;
-  top:40px;
-  background: url(../image/MEMBERSHIP/sprite_memship.png) no-repeat;
-}
-.infor{
-    position: relative;
-    padding: 0 0 36px 70px;
-    margin: 0 10px 0 30px;
-    color: #111;
-  cite{
-      display: block;
-      font-size:24px;
-      padding-bottom:5px;
-                }
-  p{
-    width:84%;
-    font-size:13px;
-    color:#515151;
-    line-height: 1.5;
-                }
   a{
+    position:relative;
     display: block;
-    position: absolute;
-    right: 20px;
-    top: 72px;
-    width: 84px;
-    font-size:12px;
-  span{
-     width:10px;
-     height:8px;
-     display: block;
-     position:absolute;
-     left:0;
-     top:0;
-     background: url(../image/MEMBERSHIP/sprite_memship.png) no-repeat 0 -400px;
-                  }
-                }
+    width: 100%;
+    dl{
+      margin-left:30px;
+      padding:36px 70px;
+
+      dt{
+        font-size: 24px;
+        line-height:28px;
+        padding-bottom: 5px;
+      }
+      dd{
+        line-height:19.5px;
+        font-size:13px;
+        &:nth-child(2){
+          position:absolute;
+          left:10px;
+          top:50px;
+          display: block;
+          width:40px;
+          height:45px;
+          background-repeat: no-repeat;
+         background-image:url(../image/MEMBERSHIP/sprite_memship.png);
+        }
+      }
+      .membership_3_1_icon{
+        background-position: 2px 0;
+      }
+      .membership_3_2_icon{
+        background-position: 1px -450px;
+      }
+      .membership_3_3_icon{
+        background-position: 9px -50px;
+      }
+      .membership_3_4_icon{
+        background-position: 0 -630px;
+      }
+      .membership_3_5_icon{
+        background-position: 0 -100px;
+      }
+      .membership_3_6_icon{
+        background-position: 8px -150px;
+      }
+      .membership_3_7_icon{
+        background-position: 0px -700px;
+      }
+      .membership_3_8_icon{
+        background-position: 0px -770px;
+      }
+      .membership_3_9_icon{
+            background-position: 5px -200px;
+      }
+      .membership_3_10_icon{
+            background-position: 10px -250px;
+      }
+      .membership_3_11_icon{
+            background-position: 10px -350px;
+      }
+      .membership_3_12_icon{
+        background-position: 10px -840px;
+      }
+    }
+    span{
+      position: relative;
+      top:-50px;
+      float:right;
+      font-size: 12px;
+      display: block;
+      width:84px;
+      height:12px;
+    .bul{
+      top:5px;
+      width: 10px;
+      height: 8px;
+      background: url(../image/MEMBERSHIP/sprite_memship.png) no-repeat 0 -400px;
+      }
+    }
+  }
+  div{
+    display: none;
               }
             }
           }
@@ -245,4 +281,3 @@ span{
       }
     }
   }
-}
