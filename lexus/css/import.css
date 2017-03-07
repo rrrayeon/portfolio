@@ -45,6 +45,8 @@ body {
 }
 #hybrid .section_hybrid_1 {
   height: 950px;
+  position: relative;
+  overflow: hidden;
 }
 #hybrid .section_hybrid_1 .section_hybrid_1_bg {
   display: block;
