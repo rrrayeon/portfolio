@@ -304,6 +304,7 @@ border-top:4px #000 solid;
         li{
           border: 1px solid #ccc;
           display: inline-block;
+          vertical-align: top;
           width: 318px;
           height: 390px;
           margin-left:18px;
@@ -311,24 +312,62 @@ border-top:4px #000 solid;
             margin-left: 0;
           }
           div{
-            padding: 25px;
+            padding:0 25px;
             &:first-child{
+              padding: 25px;
+              height:230px;
               cite{
-
+                display: block;
+                color: #000;
+                font-size:18px;
+                font-weight: bold;
+                padding-bottom:40px;
               }
               span{
+                  display: block;
+                  padding-bottom: 20px;
+                  font-size: 12px;
+                  line-height: 1.6;
+                  letter-spacing: 0.2px;
+                  word-spacing: -3px;
 
               }
               i{
-
+                  color: #254182;
+                  font-size:15px;
+                  font-weight:bold;
+                  letter-spacing: -0.05em;
+                  padding-bottom: 4px;
+                  line-height: 1.4;
               }
             }
             dl{
-              dt{
+                  height:80px;
+                  border-top: 1px solid #ccc;
+                  font-size: 13px;
+                  padding-top:20px;
+                  display: block;
 
+              dt{
+                width: 35px;
+                height: 20px;
+                float: left;
+                display: block;
+
+              i{
+                display: block;
+                float: right;
+                width: 1px;
+                height: 9px;
+                background: url(../image/MEMBERSHIP/vertical-bar.png) right 0px no-repeat;
+                }
               }
               dd{
-
+                width: 225px;
+                height: 22px;
+                display: block;
+                float: left;
+                padding: 0 0 0 8px;
               }
             }
           }
