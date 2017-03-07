@@ -39,6 +39,9 @@ body {
   top: 220px;
   width: 180px;
 }
+body {
+  overflow-x: hidden;
+}
 #hybrid {
   margin-left: 180px;
   background-color: #000;
@@ -344,6 +347,9 @@ body {
   font-weight: bold;
   display: block;
   padding-bottom: 60px;
+}
+#hybrid .section_hybrid_7 .section_hybrid_7_list li a > img {
+  width: 100%;
 }
 #perfom {
   margin-left: 180px;
