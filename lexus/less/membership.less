@@ -187,20 +187,20 @@ color:#515151;
 .section_membership_3_content{
     padding-bottom: 67px;
     padding: 0 60px 60px;
-.membership_3_2{display:none;}
-.membership_3_3{display:none;}
-.membership_3_4{display:none;}
-.membership_3_5{display:none;}
-.membership_3_6{display:none;}
-.membership_3_7{display:none;}
-.membership_3_8{display:none;}
-.membership_3_9{display:none;}
-.membership_3_10{display:none;}
-.membership_3_11{display:none;}
-.membership_3_12{display:none;}
-.membership_3_13{display:none;}
-.membership_3_14{display:none;}
-.membership_3_15{display:none;}
+// .membership_3_2{display:none;}
+// .membership_3_3{display:none;}
+// .membership_3_4{display:none;}
+// .membership_3_5{display:none;}
+// .membership_3_6{display:none;}
+// .membership_3_7{display:none;}
+// .membership_3_8{display:none;}
+// .membership_3_9{display:none;}
+// .membership_3_10{display:none;}
+// .membership_3_11{display:none;}
+// .membership_3_12{display:none;}
+// .membership_3_13{display:none;}
+// .membership_3_14{display:none;}
+// .membership_3_15{display:none;}
 
 >ul{
 border-top:4px #000 solid;
@@ -302,15 +302,13 @@ border-top:4px #000 solid;
     display: block;
       ul{
         li{
+          margin-bottom:30px;
           border: 1px solid #ccc;
           display: inline-block;
           vertical-align: top;
           width: 318px;
           height: 390px;
-          margin-left:18px;
-          &:first-child{
-            margin-left: 0;
-          }
+          margin-right:18px;
           div{
             padding:0 25px;
             &:first-child{
@@ -347,16 +345,14 @@ border-top:4px #000 solid;
                   font-size: 13px;
                   padding-top:20px;
                   display: block;
-
               dt{
+                vertical-align: top;
                 width: 35px;
                 height: 20px;
-                float: left;
-                display: block;
-
+                display:inline-block;
+                padding-top:4px;
               i{
-                display: block;
-                float: right;
+                display:inline-block;
                 width: 1px;
                 height: 9px;
                 background: url(../image/MEMBERSHIP/vertical-bar.png) right 0px no-repeat;
@@ -364,10 +360,14 @@ border-top:4px #000 solid;
               }
               dd{
                 width: 225px;
-                height: 22px;
-                display: block;
-                float: left;
-                padding: 0 0 0 8px;
+                height:auto;
+                line-height:20px;
+                display:inline-block;
+
+                a{
+                  display: block;
+                  height: 18px;
+                }
               }
             }
           }
