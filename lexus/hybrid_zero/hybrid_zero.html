@@ -9,6 +9,28 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script type="text/javascript">
 
+function pop_btn(){
+
+    $('.popup_wrap').css({
+       "display":"block"
+    }).append('<iframe width="1920" height="948" src="https://www.youtube.com/embed/Og2ups1uuLk" frameborder="0" allowfullscreen></iframe>')
+      .parents().siblings().css({
+      "display":"none"
+    });
+
+    $('.close').click(function(){
+      $('.popup_wrap').css({
+        "display":"none"
+      }).parents().siblings().css({
+        "display":"block"
+      });
+      $('.popup_wrap iframe').remove()({
+        });
+    });
+};
+
+
+
 </script>
 </head>
 <body>
@@ -49,9 +71,17 @@
                   </li>
 
                   <li class="section_hybrid_2_video">
-                    <a href="https://www.youtube.com/embed/Og2ups1uuLk?amp;autoplay=1"><img src="../image/HYBRID/new-sec2-img1.png" alt="" target="_blank"></a>
+                    <a href="javascript:void(0)" onclick="pop_btn();"><img src="../image/HYBRID/new-sec2-img1.png" alt=""></a>
                   </li>
               </ul>
+
+                <div class="popup_wrap" style="display:none">
+                    <div class="popup">
+                      <!-- <iframe  width="1920" height="948" src="https://www.youtube.com/embed/Og2ups1uuLk" frameborder="0" allowfullscreen></iframe> -->
+                      <p class="close"><a href="#"><span>닫기버튼</span></a></p>
+                    </div>
+                </div>
+
             </div>
           </li>
           <li class="section_hybrid_3">
