@@ -9,50 +9,82 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script type="text/javascript">
 
+$(function(){
 
-var idx;
+    var idx=0;
+
+    function motion(start, end, i){
+      $('.section_performance_2_gallery li').eq(i).addClass('on').css({
+        left:start,
+        'display':'block'
+      }).stop().animate({
+        left:end
+      }).siblings().removeClass();
+
+      if(idx == $('.section_performance_2_gallery li').length){
+        idx = 0
+        motion('100%',0,idx)
+      }else if( idx < 0){
+        idx = $('.section_performance_2_gallery li').length-1;
+        motion('-100%',0,idx)
+      }
+    }
+$('.section_performance_2_gallery li').eq(0).css('display','block')
+
+  $('.section_performance_2_btn a.next').click(function(){
+   idx = $('.section_performance_2_gallery li.on').index()
+   motion(0,'-100%',idx)
+   idx ++
+   motion('100%',0,idx)
+ })
+
+ $('.section_performance_2_btn a.prev').click(function(){
+  idx = $('.section_performance_2_gallery li.on').index()
+  motion(0,'100%',idx)
+  idx --
+  motion('-100%',0,idx)
+})
+
+// var idx=0;
+//
+// function motion(start, end, i){
+//   $('.section_performance_2_gallery li').eq(i).addClass('on').css({
+//     left:start,
+//     'display':'block'
+//   }).stop().animate({
+//     left:end
+//   }).siblings().removeClass();
+//
+//   if(idx == $('.section_performance_2_gallery li').length){
+//     idx = 0
+//     motion('-100%',0,idx)
+//   }else if( idx < 0){
+//     idx = $('.section_performance_2_gallery li').length-1;
+//     motion('100%',0,idx)
+//   }
+// }
+// $('.section_performance_2_gallery li').eq(0).css('display','block')
+//
+// $('.section_performance_2_btn a.prev').click(function(){
+// idx = $('.section_performance_2_gallery li.on').index()
+// motion(0,'-100%',idx)
+// idx --
+// motion('100%',0,idx)
+//
+// })
 
 
-          $('.next').click(function(){
-
-
-             idx = $('.d-type .slidebanner li.on').index();
-
-             $('.slidebanner li').eq(idx).find('img').animate({
-
-                 'left' :'-100%'
-
-             }).parent().removeClass('on').next().addClass('on').find('img').css({
-
-                 'display':'block',
-
-               'left':'100%'
-
-             }).stop().animate({
-                 left:0
-
-           })
-
-             if($('.d-type .slidebanner li.on').html() == undefined){
-
-                  $('.slidebanner li:first').addClass('on')
-
-                  idx = $('.slidebanner li.on').index();
-
-                  $('.slidebanner li').eq(idx).find('img').css({
-
-                   "left":"100%"
-
-                 }).stop().animate({
-                     left:0
-               })
-
-           }
 
 
 
 
-          })
+
+
+
+
+
+});
+
 
 </script>
 </head>
@@ -81,51 +113,51 @@ var idx;
 
             <a href="#" class="btn_performance">click</a>
 
-          </div>
+            </div>
 
                 <div class="section_performance_1_section_2">
 
-                <p class="section_performance_1_bg_2"><img src="../image/PERFORMANCE/bg_s1_2.jpg" alt=""></p>
+                  <p class="section_performance_1_bg_2"><img src="../image/PERFORMANCE/bg_s1_2.jpg" alt=""></p>
 
                 </div>
 
                 <div class="section_performance_1_section_3">
 
-                <p class="section_performance_1_bg_3"><img src="../image/PERFORMANCE/bg_s1_3.jpg" alt=""></p>
-                <p class="section_performance_1_bg_3_1"><img src="../image/PERFORMANCE/bg_s1_3_map.png" alt=""></p>
+                  <p class="section_performance_1_bg_3"><img src="../image/PERFORMANCE/bg_s1_3.jpg" alt=""></p>
+                  <p class="section_performance_1_bg_3_1"><img src="../image/PERFORMANCE/bg_s1_3_map.png" alt=""></p>
 
-                  <div class="section_performance_1_text_3">
+                    <div class="section_performance_1_text_3">
 
-                  <h3><img src="../image/PERFORMANCE/head_s1_3.png" alt="fuji speed way"></h3>
+                    <h3><img src="../image/PERFORMANCE/head_s1_3.png" alt="fuji speed way"></h3>
 
-                  <p><img src="../image/PERFORMANCE/text_s1_3.png" alt="f는 고성능 모델이 탄생한 최초의 테스트 장소이자
-                  국제 자동차 연맹으로부터 1급 레이싱 트랙으로 선정된
-                  후지 스피드 웨이(fuji speed way)에서 유래되었습니다.">
-                  </p>
+                    <p><img src="../image/PERFORMANCE/text_s1_3.png" alt="f는 고성능 모델이 탄생한 최초의 테스트 장소이자
+                    국제 자동차 연맹으로부터 1급 레이싱 트랙으로 선정된
+                    후지 스피드 웨이(fuji speed way)에서 유래되었습니다.">
+                    </p>
 
                 </div>
 
-            </div>
+              </div>
 
           </li>
 
           <li class="section_performance_2">
             <div class="section_performance_2_section_1">
 
-            <p class="section_performance_2_bg_1"><img src="../image/PERFORMANCE/bg_s2_1.jpg" alt=""></p>
+              <p class="section_performance_2_bg_1"><img src="../image/PERFORMANCE/bg_s2_1.jpg" alt=""></p>
 
-              <div class="section_performance_2_text_1">
+                <div class="section_performance_2_text_1">
 
-              <h3><img src="../image/PERFORMANCE/head_s2_1.png" alt="the f heritage"></h3>
+                <h3><img src="../image/PERFORMANCE/head_s2_1.png" alt="the f heritage"></h3>
 
-              <p><img src="../image/PERFORMANCE/text_s2_1.png" alt="디자인과 공학 분야에서 끊임없이 새로운 기준을 제시하고자, 일본 시즈오카의 후지 스피드웨이
-              독일의 뉘르브르크링과 같은 세계적인 스피드웨이 등 세계 최고의 스피드웨이에서의 드라이빙 테스트를 거쳤습니다.
-              lexus is f를 시작으로 혁신적인 lfa 슈퍼카를 거쳐 현재의 모든 f-sport까지 lexus f의 dan는 이어집니다.">
-              </p>
+                <p><img src="../image/PERFORMANCE/text_s2_1.png" alt="디자인과 공학 분야에서 끊임없이 새로운 기준을 제시하고자, 일본 시즈오카의 후지 스피드웨이
+                독일의 뉘르브르크링과 같은 세계적인 스피드웨이 등 세계 최고의 스피드웨이에서의 드라이빙 테스트를 거쳤습니다.
+                lexus is f를 시작으로 혁신적인 lfa 슈퍼카를 거쳐 현재의 모든 f-sport까지 lexus f의 dan는 이어집니다.">
+                </p>
 
-            </div>
+              </div>
 
-          </div>
+              </div>
 
 
           <div class="section_performance_2_section_2">
@@ -140,27 +172,47 @@ var idx;
 
           <div class="section_performance_2_gallery">
             <ul>
-              <li class="on"><img src="../image/PERFORMANCE/f_slide_00.jpg" alt=""></li>
-              <li><img src="../image/PERFORMANCE/f_slide_01.jpg" alt=""></li>
-              <li><img src="../image/PERFORMANCE/f_slide_02.jpg" alt=""></li>
-              <li><img src="../image/PERFORMANCE/f_slide_03.jpg" alt=""></li>
-              <li><img src="../image/PERFORMANCE/f_slide_04.jpg" alt=""></li>
+              <li class="on">
+                <div>
+                  <img src="../image/PERFORMANCE/f_slide_00.jpg" alt="">
+                </div>
+            </li>
+            <li>
+              <div>
+                <img src="../image/PERFORMANCE/f_slide_01.jpg" alt="">
+              </div>
+            </li>
+            <li>
+              <div>
+                <img src="../image/PERFORMANCE/f_slide_02.jpg" alt="">
+              </div>
+            </li>
+            <li>
+              <div>
+                <img src="../image/PERFORMANCE/f_slide_03.jpg" alt="">
+              </div>
+            </li>
+            <li>
+              <div>
+                <img src="../image/PERFORMANCE/f_slide_04.jpg" alt="">
+              </div>
+            </li>
             </ul>
           </div>
 
           <div class="section_performance_2_slidebtn">
             <ul>
               <li class="section_performance_2_on"><a href="#">첫번째버튼</a></li>
-              <li><a href="#">두번째버튼</a></li>
-              <li><a href="#">세번째버튼</a></li>
-              <li><a href="#">네번째버튼</a></li>
-              <li><a href="#">다섯번째버튼</a></li>
+              <li><a href="javascript:void(0)">두번째버튼</a></li>
+              <li><a href="javascript:void(0)">세번째버튼</a></li>
+              <li><a href="javascript:void(0)">네번째버튼</a></li>
+              <li><a href="javascript:void(0)">다섯번째버튼</a></li>
             </ul>
           </div>
 
           <p class="section_performance_2_btn">
-            <a href="#" class="prev"><img src="../image/PERFORMANCE/arrow1.png" alt="이전 버튼"></a>
-            <a href="#" class="next"><img src="../image/PERFORMANCE/arrow2.png" alt="다음 버튼"></a>
+            <a href="javascript:void(0)" class="prev"><img src="../image/PERFORMANCE/arrow1.png" alt="이전 버튼"></a>
+            <a href="javascript:void(0)" class="next"><img src="../image/PERFORMANCE/arrow2.png" alt="다음 버튼"></a>
           </p>
 
           <p class="section_performance_2_bg_2_mask"></p>

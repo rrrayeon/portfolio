@@ -555,16 +555,19 @@ body {
   top: 155px;
   left: 50%;
   margin-left: -480px;
-}
-#perfom .section_performance_2 .section_performance_2_section_2 .section_performance_2_gallery ul {
-  width: 960px;
-  height: 500px;
-  border: 1px red solid;
+  overflow: hidden;
 }
 #perfom .section_performance_2 .section_performance_2_section_2 .section_performance_2_gallery ul li {
-  display: inline-block;
+  display: none;
+  position: absolute;
 }
-#perfom .section_performance_2 .section_performance_2_section_2 .section_performance_2_gallery ul li img {
+#perfom .section_performance_2 .section_performance_2_section_2 .section_performance_2_gallery ul li div {
+  position: relative;
+}
+#perfom .section_performance_2 .section_performance_2_section_2 .section_performance_2_gallery ul li div img {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 960px;
   height: 500px;
 }
@@ -578,12 +581,10 @@ body {
   margin-left: -470px;
   z-index: 10;
 }
-#perfom .section_performance_2 .section_performance_2_section_2 .section_performance_2_slidebtn ul li {
+#perfom .section_performance_2 .section_performance_2_section_2 .section_performance_2_slidebtn li {
   display: inline-block;
-  *display: inline;
-  *zoom: 1;
 }
-#perfom .section_performance_2 .section_performance_2_section_2 .section_performance_2_slidebtn ul li a {
+#perfom .section_performance_2 .section_performance_2_section_2 .section_performance_2_slidebtn li a {
   display: block;
   width: 9px;
   height: 8px;

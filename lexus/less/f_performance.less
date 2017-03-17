@@ -174,20 +174,29 @@ h3{
     top:155px;
     left:50%;
     margin-left: -480px;
+    overflow: hidden;
+    // width,height를 내가 최초에 줬어도
+    // overflow hidden을 주면 기본 visible의 개념이 깨짐과 더불어
+    // width,height도 깨져서
+    // 눈에는 안보이지만 li들이 inline-block 상태가 됨
+    // 이걸 눈으로 직접보고싶으면 width를 늘려줘야함 아마 4900px
   ul{
-    width:960px;
-    height:500px;
-    border:1px red solid;
     li{
-
-         display: inline-block;
-         img{
-             width:960px;
-             height:500px;
-             }
+      display: none;
+      position:absolute;
+      div{
+        position:relative;
+        img{
+          position: absolute;
+          top: 0;
+          left:0;
+          width:960px;
+          height:500px;
+           }
+        }
       }
     }
-}
+  }
 .section_performance_2_slidebtn{
   width:960px;
   height:12px;
@@ -198,10 +207,8 @@ h3{
   top:680px;
   margin-left:-470px;
   z-index: 10;
-ul li{
+li{
     display:inline-block;
-    *display: inline;
-    *zoom: 1;
 a{
   display: block;
   width: 9px;
