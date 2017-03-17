@@ -388,9 +388,6 @@ body {
   display: block;
   padding-bottom: 60px;
 }
-#hybrid .section_hybrid_7 .section_hybrid_7_list li a > img {
-  width: 100%;
-}
 #perfom {
   margin-left: 180px;
   background-color: #000;
@@ -559,7 +556,15 @@ body {
   left: 50%;
   margin-left: -480px;
 }
-#perfom .section_performance_2 .section_performance_2_section_2 .section_performance_2_gallery img {
+#perfom .section_performance_2 .section_performance_2_section_2 .section_performance_2_gallery ul {
+  width: 960px;
+  height: 500px;
+  border: 1px red solid;
+}
+#perfom .section_performance_2 .section_performance_2_section_2 .section_performance_2_gallery ul li {
+  display: inline-block;
+}
+#perfom .section_performance_2 .section_performance_2_section_2 .section_performance_2_gallery ul li img {
   width: 960px;
   height: 500px;
 }
