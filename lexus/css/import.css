@@ -622,8 +622,19 @@ body {
 #perfom .section_performance_2 .section_performance_2_section_2 .section_performance_2_bg_2 {
   height: 800px;
   position: relative;
+  overflow: hidden;
 }
-#perfom .section_performance_2 .section_performance_2_section_2 .section_performance_2_bg_2 img {
+#perfom .section_performance_2 .section_performance_2_section_2 .section_performance_2_bg_2 ul li {
+  display: none;
+  position: relative;
+}
+#perfom .section_performance_2 .section_performance_2_section_2 .section_performance_2_bg_2 ul li div {
+  position: relative;
+}
+#perfom .section_performance_2 .section_performance_2_section_2 .section_performance_2_bg_2 ul li div img {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 1723px;
   height: 862px;
   width: 100%;

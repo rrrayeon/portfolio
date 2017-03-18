@@ -254,10 +254,24 @@ a{
   height:800px;
   position: relative;
   // margin-top: -31px;
-img{
-  width:1723px;
-  height:862px;
-  width:100%;
+  overflow:hidden;
+ul{
+    // li.on{display:block;}
+    li{
+        display: none;
+        position: relative;
+        div{
+            position: relative;
+            img{
+                position: absolute;
+                top: 0;
+                left:0;
+                width:1723px;
+                height:862px;
+                width:100%;
+                }
+            }
+        }
     }
   }
 }

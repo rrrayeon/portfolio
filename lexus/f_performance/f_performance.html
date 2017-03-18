@@ -45,37 +45,47 @@ $('.section_performance_2_gallery li').eq(0).css('display','block')
   motion('-100%',0,idx)
 })
 
-// var idx=0;
-//
-// function motion(start, end, i){
-//   $('.section_performance_2_gallery li').eq(i).addClass('on').css({
-//     left:start,
-//     'display':'block'
-//   }).stop().animate({
-//     left:end
-//   }).siblings().removeClass();
-//
-//   if(idx == $('.section_performance_2_gallery li').length){
-//     idx = 0
-//     motion('-100%',0,idx)
-//   }else if( idx < 0){
-//     idx = $('.section_performance_2_gallery li').length-1;
-//     motion('100%',0,idx)
-//   }
-// }
-// $('.section_performance_2_gallery li').eq(0).css('display','block')
-//
-// $('.section_performance_2_btn a.prev').click(function(){
-// idx = $('.section_performance_2_gallery li.on').index()
-// motion(0,'-100%',idx)
-// idx --
-// motion('100%',0,idx)
-//
-// })
 
 
 
 
+
+
+var idx=0;
+
+function motion1(start, end, i){
+  $('.section_performance_2_bg_2 li').eq(i).addClass('on').css({
+    left:start,
+    'display':'block'
+  }).stop().animate({
+    left:end
+  }).siblings().removeClass();
+
+  if(idx == $('.section_performance_2_bg_2 li').length){
+    idx = 0
+    motion1('-100%',0,idx)
+  }else if( idx < 0){
+    idx = $('.section_performance_2_bg_2 li').length-1;
+    motion1('100%',0,idx)
+
+  }
+}
+$('.section_performance_2_bg_2 li').eq(0).css('display','block')
+
+$('.section_performance_2_btn a.next').click(function(){
+idx = $('.section_performance_2_bg_2 li.on').index()
+
+motion1(0,'100%',idx)
+idx ++
+motion1('-100%',0,idx)
+})
+
+$('.section_performance_2_btn a.prev').click(function(){
+idx = $('.section_performance_2_bg_2 li.on').index()
+motion1(0,'-100%',idx)
+idx --
+motion1('100%',0,idx)
+})
 
 
 
@@ -217,7 +227,35 @@ $('.section_performance_2_gallery li').eq(0).css('display','block')
 
           <p class="section_performance_2_bg_2_mask"></p>
 
-          <p class="section_performance_2_bg_2"><img src="../image/PERFORMANCE/f_slide_bg_00.jpg" alt=""></p>
+          <div class="section_performance_2_bg_2">
+              <ul>
+                <li class="on">
+                  <div>
+                    <img src="../image/PERFORMANCE/f_slide_bg_00.jpg" alt="">
+                  </div>
+              </li>
+              <li>
+                <div>
+                    <img src="../image/PERFORMANCE/f_slide_bg_01.jpg" alt="">
+                </div>
+              </li>
+              <li>
+                <div>
+                    <img src="../image/PERFORMANCE/f_slide_bg_02.jpg" alt="">
+                </div>
+              </li>
+              <li>
+                <div>
+                    <img src="../image/PERFORMANCE/f_slide_bg_03.jpg" alt="">
+                </div>
+              </li>
+              <li>
+                <div>
+                    <img src="../image/PERFORMANCE/f_slide_bg_04.jpg" alt="">
+                </div>
+              </li>
+              </ul>
+          </div>
 
 
 
