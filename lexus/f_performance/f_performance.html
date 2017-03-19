@@ -11,6 +11,11 @@
 
 $(function(){
 
+    $('.section_performance_1 .btn_performance').bind('click',function(){
+        $('html,body').animate({scrollTop:'0'+'950px'},930);
+
+    });
+
     var idx=0;
 
     function motion(start, end, i){
@@ -93,6 +98,63 @@ motion1('100%',0,idx)
 
 
 
+      $('.section_performance_2_slidebtn li a').click(function(){
+            var move = $('.section_performance_2_gallery').width()
+
+            var hisnum = $('.section_performance_2_gallery li.on').index();
+
+            idx = $(this).parent().index();
+
+            if(idx > hisnum){
+
+
+                $('.section_performance_2_gallery li').eq(hisnum).children('div').find('img').css({
+                    left:0,
+                    'display':'block'
+                }).animate({
+                    left:-move
+                })
+
+
+
+                $('.section_performance_2_gallery li').eq(idx).addClass('on').children('div').find('img').css({
+                    left:move,
+                    'display':'block'
+                }).animate({
+                    left:0
+                }).parent().siblings().removeClass()
+
+
+
+
+            }
+            // else if(idx < hisnum){
+            //
+            //     $('.section_performance_2_gallery li').eq(hisnum).find('img').css({
+            //         left:0,
+            //         'display':'block'
+            //     }).animate({
+            //         left:-move
+            //     })
+            //
+            //     $('.section_performance_2_gallery li').eq(idx).addClass('on').find('img').css({
+            //         left:move,
+            //         'display':'block'
+            //     }).animate({
+            //         left:0
+            //     }).parent().siblings().removeClass()
+            //
+            //
+            // }
+
+          return false;
+
+        })
+
+
+
+
+
 });
 
 
@@ -121,7 +183,7 @@ motion1('100%',0,idx)
 
             </div>
 
-            <a href="#" class="btn_performance">click</a>
+            <a href="javascript:void(0)" class="btn_performance">click</a>
 
             </div>
 
@@ -212,7 +274,7 @@ motion1('100%',0,idx)
 
           <div class="section_performance_2_slidebtn">
             <ul>
-              <li class="section_performance_2_on"><a href="#">첫번째버튼</a></li>
+              <li class="section_performance_2_on"><a href="javascript:void(0)">첫번째버튼</a></li>
               <li><a href="javascript:void(0)">두번째버튼</a></li>
               <li><a href="javascript:void(0)">세번째버튼</a></li>
               <li><a href="javascript:void(0)">네번째버튼</a></li>

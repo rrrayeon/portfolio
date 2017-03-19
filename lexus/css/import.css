@@ -370,6 +370,7 @@ body {
   width: 74%;
 }
 #hybrid .section_hybrid_7 .section_hybrid_7_list li {
+  height: 210px;
   float: left;
   padding-left: 38px;
   font-size: 26px;
@@ -743,6 +744,7 @@ body {
   width: 74%;
 }
 #perfom .section_performance_4 .section_performance_4_list li {
+  height: 210px;
   float: left;
   width: 33.3333333%;
   font-size: 26px;
@@ -953,7 +955,7 @@ body {
 }
 #member .section_membership_3 .section_membership_3_section_1 .section_membership_3_content > ul > li {
   border-bottom: 1px #CCC  solid;
-  height: 149px;
+  height: auto;
 }
 #member .section_membership_3 .section_membership_3_section_1 .section_membership_3_content > ul > li > a {
   position: relative;
