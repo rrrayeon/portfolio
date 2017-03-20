@@ -7,123 +7,9 @@
   <link rel="stylesheet" href="../css/import.css">
   <title>F PERFORMANCE</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script type="text/javascript">
-
-$(function(){
-
-    $('.section_performance_1 .btn_performance').bind('click',function(){
-        $('html,body').animate({scrollTop:'0'+'950px'},930);
-    });
-
-    var idx=0;
-
-/**
- * [motion description]
- * @stsrt  {[string]} start [시작지점]
- * @end    {[string]} end   [도착지점]
- * @i      {[number]} i     [대상의 인덱스]
- * @return {[type]}       [움직여라 이미지야....]
- */
-
-
-    function motion(start, end, i){
-        $('.section_performance_2_slidebtn li').eq(i).addClass('on').siblings().removeClass('on');
-        $('.section_performance_2_gallery li').eq(i).addClass('on').css({
-            left:start,
-            'display':'block'
-        }).stop().animate({
-            left:end
-        }).siblings().removeClass();
-
-        if(idx == $('.section_performance_2_gallery li').length){
-            idx = 0
-            motion('100%',0,idx);
-        }else if( idx < 0){
-            idx = $('.section_performance_2_gallery li').length-1;
-            motion('-100%',0,idx);
-        }
-    }
-    $('.section_performance_2_gallery li').eq(0).css('display','block')
-
-    $('.section_performance_2_btn a.next').click(function(){
-        idx = $('.section_performance_2_gallery li.on').index();
-        motion(0,'-100%',idx)
-        idx ++
-        motion('100%',0,idx)
-    })
-
-    $('.section_performance_2_btn a.prev').click(function(){
-        idx = $('.section_performance_2_gallery li.on').index();
-        motion(0,'100%',idx)
-        idx --
-        motion('-100%',0,idx)
-    })
-
-    var idx=0;
-
-    function motion1(start, end, i){
-
-        $('.section_performance_2_bg_2 li').eq(i).addClass('on').css({
-            left:start,
-            'display':'block'
-        }).stop().animate({
-            left:end
-        }).siblings().removeClass();
-
-        if(idx == $('.section_performance_2_bg_2 li').length){
-            idx = 0
-            motion1('-100%',0,idx)
-        }else if( idx < 0){
-            idx = $('.section_performance_2_bg_2 li').length-1;
-            motion1('100%',0,idx)
-
-        }
-    }
-    $('.section_performance_2_bg_2 li').eq(0).css('display','block')
-
-    $('.section_performance_2_btn a.next').click(function(){
-        idx = $('.section_performance_2_bg_2 li.on').index()
-
-        motion1(0,'100%',idx);
-        idx ++
-        motion1('-100%',0,idx);
-    })
-
-    $('.section_performance_2_btn a.prev').click(function(){
-        idx = $('.section_performance_2_bg_2 li.on').index()
-        motion1(0,'-100%',idx);
-        idx --
-        motion1('100%',0,idx);
-    })
-
-
-
-    $('.section_performance_2_slidebtn li a').click(function(e){
-        e.preventDefault();
-        var hisnum = $('.on').index();
-        idx = $(this).parent().index();
-        $(this).parent().addClass('on').siblings().removeClass('on')
-
-        if(idx > hisnum){
-            motion('0', '-100%', hisnum);
-            motion('100%', '0', idx);
-            motion1('0','100%', hisnum);
-            motion1('-100%','0', idx);
-        }else if(idx < hisnum){
-            motion('0', '100%', hisnum);
-            motion('-100%', '0', idx);
-            motion1('0','-100%', hisnum);
-            motion1('100%','0', idx);
-        }else{
-            return
-        }
-
-    });
-});
-
-
-</script>
+  <script type="text/javascript" src="../js/f_performance.js"></script>
 </head>
+
 <body>
   <div class="header fl">렉서스 로고</div>
 <section id="perfom">
@@ -371,36 +257,29 @@ $(function(){
                 </li>
               </ul>
 
+
               <div class="popup_wrap">
-                <div class="popup">
-                  <div class="popup_content">
-                      <div class="inner_wrap">
-                        <div class="content_1">
-                          <span class="pic">
-                            <img src="" alt="">
-                          </span>
-                          <div class="text_wrap">
-                            <p class="top_text">
-                              <span>
-                                알루미늄 페달
-                              </span>
-                            </p>
-                            <div class="bottom_text">
+                <div class="popup_content">
+                  <div class="popup_inner">
+                    <div class="slide">
+                      <ul>
+                        <li class="slide_1">
+                            <span class="pic"><img src="../image/PERFORMANCE/feature_model_1.jpg" alt=""></span>
+                            <div class="infor">
                               <p>
-                                알루미늄 페달로 운전자에게 럭셔리하면서 역동적인 느낌이 어떤 것인지를 보여줍니다.
+                                <span>알루미늄 페달</span>
                               </p>
+                              <div>
+                                <p>알루미늄 페달 운전자에게 럭셔리하면서 역동적인 느낌이 어떤 것인지를 보여줍니다.</p>
+                              </div>
                             </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="infor_wrap"></div>
+                        </li>
+                      </ul>
+                    </div>
                   </div>
-                  <p class="close">
-                    <a href="#">
-                      <span>닫기버튼</span>
-                    </a>
-                  </p>
+                  <div class="popup_btn"></div>
                 </div>
+                  <div class="close_btn"></div>
               </div>
 
               <div class="on">

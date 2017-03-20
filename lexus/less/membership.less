@@ -187,21 +187,6 @@ color:#515151;
 .section_membership_3_content{
     padding-bottom: 67px;
     padding: 0 60px 60px;
-// .membership_3_2{display:none;}
-// .membership_3_3{display:none;}
-// .membership_3_4{display:none;}
-// .membership_3_5{display:none;}
-// .membership_3_6{display:none;}
-// .membership_3_7{display:none;}
-// .membership_3_8{display:none;}
-// .membership_3_9{display:none;}
-// .membership_3_10{display:none;}
-// .membership_3_11{display:none;}
-// .membership_3_12{display:none;}
-// .membership_3_13{display:none;}
-// .membership_3_14{display:none;}
-// .membership_3_15{display:none;}
-
 >ul{
 border-top:4px #000 solid;
 >li{
@@ -293,13 +278,25 @@ border-top:4px #000 solid;
       height: 8px;
       background: url(../image/MEMBERSHIP/sprite_memship.png) no-repeat 0 -400px;
       }
+    .close_bul{
+      display: none;
+      position: absolute;
+      top:5px;
+      right:0;
+      width: 10px;
+      height: 8px;
+      background: url(../image/MEMBERSHIP/sprite_memship.png) no-repeat -15px -398px;
+      }
     }
   }
 //
 >div{
   display: none;
+  // div내용물들을 안보이게 해주기위해
   &.on{
     display: block;
+    // on클래스를 가지고있는div만 보여지기위해
+    // &-less언어,div의 클래스가 on인 아이한테 바로 클래스적용
       ul{
         li{
           margin-bottom:30px;
