@@ -11,7 +11,7 @@ $(function(){
 
          })
 
-    $('.section_membership_1 .btn_membership').bind('click',function(){
+    $('.section_membership_1 .btn_membership').on('click',function(){
         $('html,body').animate({scrollTop:'0'+'950px'},930);
 
     });
