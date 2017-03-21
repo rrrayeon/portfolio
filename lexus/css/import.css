@@ -785,7 +785,7 @@ body {
   margin: 0 30px;
   height: 77px;
 }
-#perfom .section_performance_3 .section_performance_3_section_2 .section_performance_3_accessories .popup_wrap .popup_content .popup_inner .slide .slide_1 .infor > p span {
+#perfom .section_performance_3 .section_performance_3_section_2 .section_performance_3_accessories .popup_wrap .popup_content .popup_inner .slide .slide_1 .infor > p > span {
   font-weight: bold;
   display: block;
   height: 27px;

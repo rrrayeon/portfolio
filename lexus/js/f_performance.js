@@ -168,4 +168,21 @@ $(function(){
 
 
 
+
+          $('.popup_btn .prev').click(function(){
+            console.log("111");
+            $('.page_number .num').text()
+            $(this).prop('Counter',0).animate({
+              Counter : $(this).text()
+            },{
+              duration:4000,
+              easing : 'swing',
+              step:function(now){
+                $(this).text(Math.ceil(now));
+              }
+            })
+          })
+
+
+
 });
