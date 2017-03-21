@@ -794,12 +794,12 @@ body {
   font-size: 22px;
   color: #222;
 }
-#perfom .section_performance_3 .section_performance_3_section_2 .section_performance_3_accessories .popup_wrap .popup_content .popup_inner .slide .slide_1 .infor div {
+#perfom .section_performance_3 .section_performance_3_section_2 .section_performance_3_accessories .popup_wrap .popup_content .popup_inner .slide .slide_1 .infor > div {
   font-size: 14px;
   height: 138px;
   margin: 0 2px 0 30px;
 }
-#perfom .section_performance_3 .section_performance_3_section_2 .section_performance_3_accessories .popup_wrap .popup_content .popup_inner .slide .slide_1 .infor div > p {
+#perfom .section_performance_3 .section_performance_3_section_2 .section_performance_3_accessories .popup_wrap .popup_content .popup_inner .slide .slide_1 .infor > div > p {
   font-size: 14px;
   color: #777;
 }

@@ -150,7 +150,7 @@ $(function(){
             motion3('-100%',0,idx);
         }
     }
-    $('.slide li').eq(0).css('display','block')
+    $('.slide li').eq(0).css('display','block');
 
     $('.popup_btn a.next').click(function(){
         idx = $('.slide li.on').index();
