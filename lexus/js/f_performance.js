@@ -140,7 +140,7 @@ $(function(){
             'display':'block'
         }).stop().animate({
             left:end
-        }).siblings().removeClass().css('display','none');
+        }).siblings().removeClass('on').css('display','none');
 
         if(idx == $('.slide li').length){
             idx = 0
@@ -168,20 +168,20 @@ $(function(){
 
 
 
-
-          $('.popup_btn .prev').click(function(){
-            console.log("111");
-            $('.page_number .num').text()
-            $(this).prop('Counter',0).animate({
-              Counter : $(this).text()
-            },{
-              duration:4000,
-              easing : 'swing',
-              step:function(now){
-                $(this).text(Math.ceil(now));
-              }
-            })
-          })
+          //
+          // $('.popup_btn .prev').click(function(){
+          //   console.log("111");
+          //   $('.page_number .num').text()
+          //   $(this).prop('Counter',0).animate({
+          //     Counter : $(this).text()
+          //   },{
+          //     duration:4000,
+          //     easing : 'swing',
+          //     step:function(now){
+          //       $(this).text(Math.ceil(now));
+          //     }
+          //   })
+          // })
 
 
 

@@ -68,21 +68,29 @@ body {
   left: 45%;
   margin-left: -32px;
 }
+#hybrid .section_hybrid_1 h2 img {
+  opacity: 1;
+  transition: 0.5s;
+}
 #hybrid .section_hybrid_1 .strip_hybrid_1 {
   position: absolute;
-  top: 169px;
+  top: 100px;
   left: 45.5%;
   width: 240px;
-  height: 457px;
+  height: 100%;
   margin-left: -48px;
+  background-image: url('../image/HYBRID/new-sec1-img2.png');
+  background-repeat: no-repeat;
 }
 #hybrid .section_hybrid_1 .man_hybrid_1 {
   position: absolute;
-  top: 168px;
+  top: 100px;
   left: 45.5%;
   width: 378px;
-  height: 431px;
+  height: 100%;
   margin-left: -92px;
+  background-image: url('../image/HYBRID/new-sec1-img1.png');
+  background-repeat: no-repeat;
 }
 #hybrid .section_hybrid_1 p {
   width: 528px;
@@ -92,6 +100,10 @@ body {
   left: 45%;
   margin-left: -174px;
 }
+#hybrid .section_hybrid_1 p img {
+  opacity: 1;
+  transition: 0.5s;
+}
 #hybrid .section_hybrid_2 {
   height: 694px;
   position: relative;
@@ -100,7 +112,7 @@ body {
   width: 2000px;
   height: 1600px;
   position: absolute;
-  top: 50px;
+  top: 150px;
   left: 54.125%;
 }
 #hybrid .section_hybrid_2 strong {
@@ -111,13 +123,19 @@ body {
   left: 50%;
   top: 103px;
 }
+#hybrid .section_hybrid_2 strong img {
+  opacity: 1;
+  transition: 0.3s;
+}
 #hybrid .section_hybrid_2 .section_hybrid_2_video {
   width: 676px;
-  height: 360px;
+  height: 100%;
   position: absolute;
   left: 50%;
-  top: 180px;
+  top: 200px;
   margin-left: -338px;
+  background-image: url('../image/HYBRID/new-sec2-img1.png');
+  background-repeat: no-repeat;
 }
 #hybrid .section_hybrid_2 .popup_wrap {
   position: fixed;
@@ -162,23 +180,28 @@ body {
 #hybrid .section_hybrid_3 {
   height: 800px;
   position: relative;
+  bottom: 100px;
 }
 #hybrid .section_hybrid_3 h2 {
   width: 696px;
-  height: 385px;
+  height: 100%;
   position: absolute;
-  top: 115px;
+  top: 150px;
   left: 50%;
   margin-left: -370px;
+  background-image: url('../image/HYBRID/logo_hybrid.png');
+  background-repeat: no-repeat;
 }
 #hybrid .section_hybrid_3 a {
   width: 272px;
-  height: 40px;
+  height: 100%;
   display: block;
   position: absolute;
   left: 50%;
-  top: 590px;
+  top: 500px;
   margin-left: -136px;
+  background-image: url('../image/HYBRID/btn_s1.png');
+  background-repeat: no-repeat;
 }
 #hybrid .section_hybrid_4 {
   height: 1054px;
