@@ -184,5 +184,70 @@ $(function(){
           // })
 
 
-
 });
+
+
+$(document).ready(function(){
+  $('.section_performance_1_text_1 h3').parallax("50%", 0.2);
+  $('.section_performance_1_text_1 p').parallax("50%", 0.7);
+  $('.section_performance_1_text_3 h3').parallax("50%", 0.2);
+  $('.section_performance_1_text_3 p').parallax("50%", 0.7);
+  $('.section_performance_2_text_1 h3').parallax("50%", 0.2);
+  $('.section_performance_2_text_1 p').parallax("50%", 0.7);
+  $('.section_performance_3_text_1 h3').parallax("50%", 0.2);
+  $('.section_performance_3_text_1 p').parallax("50%", 0.7);
+
+
+
+
+
+
+
+
+
+})
+
+$(function(){
+
+    $(window).scroll(function(){
+        var st = $(window).scrollTop();
+        // 섹션 퍼포먼스원 텍스트원 h3글
+        if(st > 100 ){
+          $('.section_performance_1_text_1 h3').css('opacity', '0')
+      }else if(st <= 100 ){
+          $('.section_performance_1_text_1 h3').css('opacity', '1')
+        }
+
+        //섹션 퍼포먼스원 텍스트원 p글
+        if(st > 150 ){
+        $('.section_performance_1_text_1 p').css('opacity', '0')
+    }else if(st <= 150 ){
+        $('.section_performance_1_text_1 p').css('opacity', '1')
+        }
+        // // 하이브리드 섹션투  모든 순간이 감동이다
+        // if(st > 500 ){
+        // $('.section_hybrid_2 li strong img').css('opacity', '1')
+        // }else if(st <= 500 ){
+        // $('.section_hybrid_2 li strong img').css('opacity', '1')
+        // }
+    });
+
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+///////////////////////////////////////
